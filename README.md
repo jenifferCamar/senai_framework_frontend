@@ -1,75 +1,63 @@
-# 🚀 Frameworks Front-end — SENAI
+# 📘 Anotações de Aula: Frameworks Front-end
 
-<p align="center">
-  <img src="https://img.shields.io/badge/SENAI-Educa%C3%A7%C3%A3o%20Superior-red?style=for-the-badge&logo=codeforces" alt="SENAI">
-  <img src="https://img.shields.io/badge/Status-Em%20Andamento-brightgreen?style=for-the-badge" alt="Status">
-  <img src="https://img.shields.io/badge/Semestre-2026%2F2-blue?style=for-the-badge" alt="Semestre">
-</p>
-
-<p align="center">
-  <b>Repositório oficial e centralizado para o desenvolvimento das atividades práticas e projetos da disciplina de Frameworks Front-end.</b>
-</p>
+Este repositório consolida o material didático, registros de aula e guias técnicos da disciplina **Frameworks Front-end**. O objetivo é oferecer suporte acadêmico para acompanhamento, revisão e consulta técnica constante.
 
 ---
 
-## 👨‍🏫 Professor & Informações
-* **Docente:** Prof. Me. Deivison S. Takatu (`deivison.takatu@edu.senai.br`) [cite: 1]
-* **Instituição:** SENAI [cite: 1]
-* **Foco:** Desenvolvimento de aplicações Web modernas, componentizadas e responsivas utilizando frameworks de mercado [cite: 1].
+### 📌 Visão Geral da Disciplina
+
+| **Atributo** | **Informação** |
+| :--- | :--- |
+| **Tipo de Conteúdo** | `ANOTAÇÕES DE AULA` |
+| **Status Atual** | `EM ANDAMENTO` |
+| **Público-Alvo** | Cursos Superiores de Tecnologia e Bacharelado |
+| **Metodologia** | Presencial, Prática e Projetos |
 
 ---
 
-## 📚 O que Estudaremos na Disciplina?
-Nesta jornada, exploraremos desde os fundamentos do ecossistema web até a publicação de aplicações profissionais na nuvem [cite: 1]:
-* 🛠️ **Ambiente de Desenvolvimento & Ferramentas** (Git, GitHub, VS Code) [cite: 1]
-* 📄 **Vanilla JS & Arquitetura Web** (HTML, CSS e JavaScript puro) [cite: 1]
-* ⚛️ **Frameworks e Bibliotecas Front-end** (React, Vue, Angular) [cite: 1]
-* 🧩 **Componentização & Gerenciamento de Estado** [cite: 1]
-* 🚀 **Deploy Contínuo e Publicação** (Vercel, GitHub Pages) [cite: 1]
+### 🎯 Objetivos de Aprendizagem
+
+Capacidades técnicas fundamentais desenvolvidas ao longo do semestre:
+
+| Competência | Foco |
+| :--- | :--- |
+| **Configuração de Ambiente** | `ALTO` |
+| **Tecnologias Front-end** | `ALTO` |
+| **Boas Práticas de Código** | `MÉDIO` |
+| **Frameworks Web** | `ALTO` |
+| **Responsividade e UX** | `ALTO` |
 
 ---
 
-## 📊 Critérios de Avaliação
-A nota final da disciplina é distribuída da seguinte forma [cite: 1]:
+### 📚 Conteúdo Programático
 
-| Componente | Peso | Descrição |
-| :--- | :---: | :--- |
-| **Avaliação Docente** | **55%** | Dividida em Desenvolvimento de Projeto (20%), Apresentação (20%) e Atividades Práticas (15%) [cite: 1]. |
-| **Projeto Integrador** | **35%** | Projeto prático integrando os conceitos abordados ao longo do semestre [cite: 1]. |
-| **Autoavaliação** | **10%** | Reflexão crítica do aluno sobre seu próprio desempenho e evolução [cite: 1]. |
-
----
-
-## 📂 Estrutura do Repositório
-As pastas e arquivos deste repositório estão organizados da seguinte maneira para facilitar a navegação:
-
-```text
-📦 frameworks-front-end
- ┣ 📂 aula-01-intro          # Resumos e primeiros passos (Vanilla JS + Deploy)
- ┣ 📂 atividades             # Entregas semanais realizadas em grupo
- ┣ 📂 projeto-final          # Documentação estilo "mini TCC" e código do projeto
- ┗ 📜 README.md              # Este arquivo de apresentação
-```
+| Módulo | Foco Temático |
+| :--- | :--- |
+| **01. Fundamentos** | Responsividade, Ferramentas e Conceitos de Framework |
+| **02. CSS Frameworks** | Definição, Instalação, Configuração e Estilização |
+| **03. JS Frameworks** | Gerenciamento NPM, Rotas, Componentes e Estado |
 
 ---
 
-## 🛠️ Atividades Realizadas
+### 📅 Cronograma de Aulas
 
-### 📌 Aula 01: Apresentação da Disciplina e Contextualização
-* **Status:** ✅ Concluído
-* **Descrição:** Introdução aos conceitos de Front-end, arquitetura web, importância estratégica dos frameworks no mercado e alinhamento do plano de ensino [cite: 1].
-* **Atividade Prática:**
-  1. Criação de projeto base com HTML, CSS e JavaScript (Vanilla JS) [cite: 1].
-  2. Integração do ambiente de desenvolvimento (IDE) com o **GitHub** [cite: 1].
-  3. Realização de *deploy* da aplicação utilizando a plataforma **Vercel** [cite: 1].
-
----
-
-## 👥 Integrantes do Grupo
-* *Adicione aqui o nome dos integrantes da sua equipe*
+| Aulas | Tema de Estudo |
+| :--- | :--- |
+| 01 - 03 | Introdução ao Ecossistema e Ambiente |
+| 04 | Imersão em Frameworks CSS |
+| 05 - 13 | Projeto Integrador e Frameworks Front-end (JS) |
+| 14 - 16 | Otimização, Boas Práticas e Deploy |
+| 17 - 20 | Avaliações Integradoras e Encerramento |
 
 ---
 
-<p align="center">
-  <i>Desenvolvido com 💙 para a disciplina de Frameworks Front-end do SENAI.</i>
-</p>
+### 📊 Sistema de Avaliação
+
+| Critério | Peso | 
+| :--- | :--- | 
+| **Avaliação Docente** | 55% 
+| **Projeto Integrador** | 35% 
+| **Autoavaliação** | 10% 
+
+---
+*Nota: Este material é um repositório de anotações de aula com finalidade estritamente educacional.*
