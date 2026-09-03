@@ -44,7 +44,7 @@ HTTP define como clientes e servidores trocam mensagens na web. Cada requisiçã
 | `PATCH` | atualizar parte de um recurso | alterar somente o e-mail |
 | `DELETE` | remover um recurso | excluir usuário |
 
-`GET` não deve alterar dados. `PUT` e `DELETE` são tratados como idempotentes: repetir a mesma operação deve manter o mesmo efeito final. `POST`, em geral, pode criar novos recursos a cada chamada.
+`GET` não deve alterar dados. O material destaca `GET` como seguro e idempotente, `POST` como não idempotente e `DELETE` como idempotente. `PUT` substitui o recurso inteiro, enquanto `PATCH` atualiza apenas parte dele.
 
 ### Endpoint
 
@@ -59,6 +59,8 @@ DELETE /usuarios/42
 ~~~
 
 O caminho identifica o recurso e o método indica a ação.
+
+Catálogos como o [Free Public APIs](https://www.freepublicapis.com/) reúnem serviços públicos que podem ser usados para estudar e desenvolver integrações.
 
 ### JSON
 
@@ -158,6 +160,10 @@ carregarDataHora();
 ~~~
 
 O front-end deve prever pelo menos três estados: carregando, sucesso e erro.
+
+### Quando usar Express
+
+Express é adequado para APIs REST, integração com bancos de dados, páginas com templates, autenticação, logs e prototipagem rápida. Para aplicações em tempo real, WebSockets podem ser mais apropriados; para processamento pesado, é melhor utilizar workers ou serviços específicos.
 
 ## Publicação
 

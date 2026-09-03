@@ -42,6 +42,13 @@ A versão `1.0.0` costuma indicar a primeira versão pública estável; versões
 
 Mudanças comuns incluem correção de bugs, novas funcionalidades, melhorias, refatoração, desempenho, segurança, atualização de dependências e testes.
 
+### Benefícios do versionamento
+
+- Permite trabalho simultâneo sem sobrescrever o código de outras pessoas.
+- Identifica conflitos antes que eles causem retrabalho.
+- Mantém auditoria de quem alterou o quê, quando e por qual motivo.
+- Permite recuperar versões anteriores e testar mudanças antes da publicação.
+
 ## Git e GitHub
 
 ### Configuração inicial

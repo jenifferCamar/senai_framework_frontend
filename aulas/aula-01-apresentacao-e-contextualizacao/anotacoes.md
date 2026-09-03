@@ -15,6 +15,10 @@ O front-end é a camada da aplicação com a qual a pessoa usuária interage. El
 
 Frameworks e bibliotecas ajudam a construir aplicações modernas com uma arquitetura mais organizada. Ao longo da disciplina, o trabalho passa por ambiente de desenvolvimento, componentes, interfaces, boas práticas, integração com APIs, versionamento e publicação na web.
 
+### Contexto profissional
+
+Os slides destacam que frameworks front-end são importantes porque as aplicações web atuais precisam ser rápidas, organizadas e fáceis de manter. Essa organização depende também da arquitetura de software, isto é, de como as diferentes partes da aplicação se relacionam.
+
 ## Conceitos principais
 
 ### Desenvolvimento front-end

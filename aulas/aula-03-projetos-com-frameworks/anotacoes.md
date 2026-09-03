@@ -27,6 +27,13 @@ A escolha da tecnologia deve considerar o tamanho e a complexidade do projeto, o
 
 Essa diferença é frequentemente explicada pela **inversão de controle**: com uma biblioteca, a aplicação chama a ferramenta; com um framework, a estrutura do framework chama partes da aplicação nos momentos previstos.
 
+## Por que utilizar frameworks?
+
+- Aumentam a produtividade com soluções prontas para roteamento, estado e renderização.
+- Incentivam padrões e boas práticas de organização.
+- Facilitam a manutenção com mecanismos como Virtual DOM e Change Detection.
+- Oferecem documentação, plugins, comunidade e ferramentas de teste.
+
 ## Características comuns
 
 - **Componentização:** divide a interface em unidades independentes e reutilizáveis.
