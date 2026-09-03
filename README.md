@@ -22,11 +22,25 @@ Novas aulas serão acrescentadas a esta tabela conforme o conteúdo for disponib
 
 | Aula | Projeto | Repositório | Deploy | Tecnologia ou foco |
 | :---: | --- | --- | --- | --- |
-| 01 | Pong Blocks | [project-vanilla-js](https://github.com/jenifferCamar/project-vanilla-js) | [Abrir aplicação](https://project-vanilla-js.vercel.app) | HTML, CSS e JavaScript Vanilla |
-| 02 | Modo Web | [meu-app-angular](https://github.com/jenifferCamar/meu-app-angular) | [Abrir aplicação](https://project-vanilla-js.vercel.app) | React, Vite e Vercel |
-| 03 | Frameworks Front-end em grupo | [framework-frontend-colab](https://github.com/pi-1semestre/framework-frontend-colab) | Não localizado no repositório | React, Vue, Angular e Next.js |
+| 01 | Pong Blocks | [project-vanilla-js](https://github.com/jenifferCamar/project-vanilla-js) | [Abrir aplicação](https://pong-blocks.vercel.app) | HTML, CSS e JavaScript Vanilla |
+| 02 | Modo Web | [meu-app-angular](https://github.com/jenifferCamar/meu-app-angular) | **A adicionar** | React, Vite e Vercel |
+| 03.1 | Projeto 01 | [Repositório do grupo](https://github.com/pi-1semestre/framework-frontend-colab) | **A adicionar** | React |
+| 03.2 | Projeto 02 | [Repositório do grupo](https://github.com/pi-1semestre/framework-frontend-colab) | **A adicionar** | Vue.js |
+| 03.3 | Projeto 03 | [Repositório do grupo](https://github.com/pi-1semestre/framework-frontend-colab) | **A adicionar** | Angular |
+| 03.4 | Projeto 04 — Steven Universo | [Pasta no repositório do grupo](https://github.com/pi-1semestre/framework-frontend-colab/tree/main/react-landing-page-template-2021) | **A adicionar** | Next.js |
+| 03.5 | Projeto 05 — cópia/adaptação | [Repositório do grupo](https://github.com/pi-1semestre/framework-frontend-colab) | **A adicionar** | Projeto baseado em outro repositório |
+| 04 | 10 APIs | [10-apis](https://github.com/jenifferCamar/10-apis) | **A adicionar** | Consumo de APIs |
 
-As atividades práticas estão organizadas nos repositórios individuais e no repositório colaborativo do grupo. O deploy da Aula 02 usa a URL informada no README do repositório; o deploy da atividade em grupo ainda precisa ser informado ou publicado.
+As cinco entregas da Aula 03 estão descritas nos slides. O repositório colaborativo é o endereço geral da atividade; o Projeto 04 corresponde à sua implementação em Next.js sobre Steven Universo. O deploy dos projetos ainda precisa ser adicionado quando houver uma URL pública.
+
+### Campos pendentes dos projetos
+
+- [ ] Adicionar o link individual do Projeto 01 — React.
+- [ ] Adicionar o link individual do Projeto 02 — Vue.js.
+- [ ] Adicionar o link individual do Projeto 03 — Angular.
+- [x] Identificar o Projeto 04 — Next.js sobre Steven Universo.
+- [ ] Adicionar o link do Projeto 05 — cópia/adaptação.
+- [ ] Registrar o deploy de cada projeto da Aula 03.
 
 ## Finalidade do repositório
 
