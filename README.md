@@ -4,7 +4,7 @@ Repositório contínuo de **materiais, resumos e anotações** da disciplina de 
 
 Este espaço será atualizado durante o semestre. Cada nova aula terá uma pasta própria com o material apresentado, as anotações produzidas e, quando necessário, referências para atividades e projetos.
 
-> **Status:** em atualização contínua — aulas 01 a 04 registradas até o momento.
+> **Status:** em atualização contínua — aulas 01 a 05 registradas até o momento.
 
 ## Índice de aulas
 
@@ -14,18 +14,19 @@ Este espaço será atualizado durante o semestre. Cada nova aula terá uma pasta
 | 02 | Configuração do ambiente | Versionamento, Git, VS Code, Node.js, npm, React e deploy | [PDF](aulas/aula-02-configuracao-do-ambiente/material-aula-02.pdf) | [Ler](aulas/aula-02-configuracao-do-ambiente/anotacoes.md) |
 | 03 | Projetos com frameworks | React, Angular, Vue, Next.js, componentes e estrutura de projetos | [PDF](aulas/aula-03-projetos-com-frameworks/material-aula-03.pdf) | [Ler](aulas/aula-03-projetos-com-frameworks/anotacoes.md) |
 | 04 | Consumo de APIs | REST, HTTP, JSON, Express, Render e integração front-end/back-end | [PDF](aulas/aula-04-consumo-de-apis/material-aula-04.pdf) | [Ler](aulas/aula-04-consumo-de-apis/anotacoes.md) |
+| 05 | Criação de APIs para o front-end | API REST, Express, CORS, JSON, Render e consumo pelo front-end | [PDF](aulas/aula-05-criando-apis-para-o-front-end/material-aula-05.pdf) | [Ler](aulas/aula-05-criando-apis-para-o-front-end/anotacoes.md) |
 
 Novas aulas serão acrescentadas a esta tabela conforme o conteúdo for disponibilizado.
 
 ## Projetos da disciplina
 
-| Aula | Projeto | Repositório | Tecnologia ou foco |
-| :---: | --- | --- | --- |
-| 01 | Pong Blocks | [project-vanilla-js](https://github.com/jenifferCamar/project-vanilla-js) | HTML, CSS e JavaScript Vanilla |
-| 02 | Meu App Angular | [meu-app-angular](https://github.com/jenifferCamar/meu-app-angular) | Angular e TypeScript |
-| 03 | Frameworks Front-end em grupo | [framework-frontend-colab](https://github.com/pi-1semestre/framework-frontend-colab) | React, Vue, Angular e Next.js |
+| Aula | Projeto | Repositório | Deploy | Tecnologia ou foco |
+| :---: | --- | --- | --- | --- |
+| 01 | Pong Blocks | [project-vanilla-js](https://github.com/jenifferCamar/project-vanilla-js) | [Abrir aplicação](https://project-vanilla-js.vercel.app) | HTML, CSS e JavaScript Vanilla |
+| 02 | Modo Web | [meu-app-angular](https://github.com/jenifferCamar/meu-app-angular) | [Abrir aplicação](https://project-vanilla-js.vercel.app) | React, Vite e Vercel |
+| 03 | Frameworks Front-end em grupo | [framework-frontend-colab](https://github.com/pi-1semestre/framework-frontend-colab) | Não localizado no repositório | React, Vue, Angular e Next.js |
 
-As atividades práticas estão organizadas nos repositórios individuais e no repositório colaborativo do grupo.
+As atividades práticas estão organizadas nos repositórios individuais e no repositório colaborativo do grupo. O deploy da Aula 02 usa a URL informada no README do repositório; o deploy da atividade em grupo ainda precisa ser informado ou publicado.
 
 ## Finalidade do repositório
 
@@ -59,6 +60,8 @@ As atividades práticas estão organizadas nos repositórios individuais e no re
     ├── aula-02-tema/
     │   ├── anotacoes.md
     │   └── material-aula-02.pdf
+    ├── aula-05-criando-apis-para-o-front-end/
+    │   └── anotacoes.md
     └── aula-XX-tema/
         ├── anotacoes.md
         ├── material-aula-XX.pdf
