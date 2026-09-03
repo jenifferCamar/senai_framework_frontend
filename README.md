@@ -17,6 +17,16 @@ Este espaço será atualizado durante o semestre. Cada nova aula terá uma pasta
 
 Novas aulas serão acrescentadas a esta tabela conforme o conteúdo for disponibilizado.
 
+## Projetos da disciplina
+
+| Aula | Projeto | Repositório | Tecnologia ou foco |
+| :---: | --- | --- | --- |
+| 01 | Pong Blocks | [project-vanilla-js](https://github.com/jenifferCamar/project-vanilla-js) | HTML, CSS e JavaScript Vanilla |
+| 02 | Meu App Angular | [meu-app-angular](https://github.com/jenifferCamar/meu-app-angular) | Angular e TypeScript |
+| 03 | Frameworks Front-end em grupo | [framework-frontend-colab](https://github.com/pi-1semestre/framework-frontend-colab) | React, Vue, Angular e Next.js |
+
+As atividades práticas estão organizadas nos repositórios individuais e no repositório colaborativo do grupo.
+
 ## Finalidade do repositório
 
 - Centralizar os materiais fornecidos em aula.
