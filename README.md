@@ -22,23 +22,26 @@ Novas aulas serão acrescentadas a esta tabela conforme o conteúdo for disponib
 
 | Aula | Projeto | Repositório | Deploy | Tecnologia ou foco |
 | :---: | --- | --- | --- | --- |
-| 01 | Pong Blocks | [repositório](https://github.com/jenifferCamar/project-vanilla-js) · [README](https://github.com/jenifferCamar/project-vanilla-js/blob/main/README.md) | [visualizar](https://pong-blocks.vercel.app) | HTML, CSS e JavaScript |
-| 02 | Modo Web | [repositório](https://github.com/jenifferCamar/meu-app-angular) · [README](https://github.com/jenifferCamar/meu-app-angular/blob/main/README.md) | **A adicionar** | React, Vite e Vercel |
-| 03.1 | Atividade 03 — relatório técnico em Markdown (5 páginas) | [repositório em grupo](https://github.com/pi-1semestre/framework-frontend-colab) · [README](https://github.com/pi-1semestre/framework-frontend-colab/blob/main/README.md) | — | Framework front-end |
+| 01 | Vanila js | [repositório pessoal](https://github.com/jenifferCamar/project-vanilla-js) · [README](https://github.com/jenifferCamar/project-vanilla-js/blob/main/README.md) | [visualizar](https://pong-blocks.vercel.app) | HTML, CSS e JavaScript |
+| 02 | projeto react | [repositório pessoal](https://github.com/jenifferCamar/meu-app-angular) · [README](https://github.com/jenifferCamar/meu-app-angular/blob/master/README.md) | **A adicionar** | React, Vite e Vercel |
+| 03.1 | Atividade 03 — relatório técnico React em Markdown (5 páginas) | [repositório em grupo](https://github.com/pi-1semestre/framework-frontend-colab) · [README](https://github.com/pi-1semestre/framework-frontend-colab/blob/main/README.md) | — | React |
 | 03.2 | Projeto React Cartoon | [repositório em grupo](https://github.com/pi-1semestre/framework-frontend-colab) · [README](https://github.com/pi-1semestre/framework-frontend-colab/blob/main/README.md) | [visualizar](https://projeto-react-cartoon-framework.vercel.app/) | React |
 | 03.3 | Steven Universo | [repositório em grupo](https://github.com/pi-1semestre/framework-frontend-colab) · [README](https://github.com/pi-1semestre/framework-frontend-colab/blob/main/README.md) | [visualizar](https://steven-universo-next.vercel.app/) | Next.js |
-| 04 | 10 APIs — atividade em Markdown | [repositório](https://github.com/jenifferCamar/10-apis) · [README](https://github.com/jenifferCamar/10-apis/blob/main/README.md) | — | Consumo de APIs |
+| 04.1 | 10 APIs — atividade em Markdown | [repositório pessoal](https://github.com/jenifferCamar/10-apis) · [README](https://github.com/jenifferCamar/10-apis/blob/main/README.md) | — | Consumo de APIs |
+| 04.2 | API de data e hora | [repositório pessoal](https://github.com/jenifferCamar/atividade-02-data-hora-api) · [README](https://github.com/jenifferCamar/atividade-02-data-hora-api/blob/main/README.md) | **A adicionar** | Express / Render |
+| 04.3 | API Front de data e hora | [repositório pessoal](https://github.com/jenifferCamar/atividade-02-data-hora-frontend) · [README](https://github.com/jenifferCamar/atividade-02-data-hora-frontend/blob/main/README.md) | **A adicionar** | Vite / Vercel |
 
-As cinco entregas da Aula 03 estão descritas nos slides. O repositório colaborativo é o endereço geral da atividade; o Projeto 04 corresponde à sua implementação em Next.js sobre Steven Universo. O deploy dos projetos ainda precisa ser adicionado quando houver uma URL pública.
+As entregas da Aula 03 estão descritas nos slides. O relatório técnico e os projetos React Cartoon e Steven Universo usam o repositório colaborativo. A Aula 04 registra a pesquisa de 10 APIs e os repositórios pessoais separados da API e da API Front.
 
 ### Campos pendentes dos projetos
 
-- [ ] Adicionar o link individual do Projeto 01 — React.
-- [ ] Adicionar o link individual do Projeto 02 — Vue.js.
-- [ ] Adicionar o link individual do Projeto 03 — Angular.
-- [x] Identificar o Projeto 04 — Next.js sobre Steven Universo.
-- [ ] Adicionar o link do Projeto 05 — cópia/adaptação.
-- [ ] Registrar o deploy de cada projeto da Aula 03.
+- [x] Registrar o projeto pessoal Vanila js.
+- [x] Registrar o projeto pessoal projeto react.
+- [x] Registrar o relatório técnico React em grupo.
+- [x] Registrar o repositório do grupo e o projeto Next.js sobre Steven Universo.
+- [x] Registrar a atividade em Markdown das 10 APIs.
+- [x] Registrar os repositórios pessoais da API e da API Front.
+- [ ] Registrar os deploys da API e da API Front quando as URLs públicas forem informadas.
 
 ## Finalidade do repositório
 
