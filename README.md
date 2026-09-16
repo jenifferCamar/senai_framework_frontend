@@ -22,12 +22,12 @@ Novas aulas serão acrescentadas a esta tabela conforme o conteúdo for disponib
 
 | Aula | Projeto | Repositório | Deploy | Tecnologia ou foco |
 | :---: | --- | --- | --- | --- |
-| 01 | Pong Blocks | [project-vanilla-js](https://github.com/jenifferCamar/project-vanilla-js) | [visualizar](https://pong-blocks.vercel.app) | HTML, CSS e JavaScript |
-| 02 | Modo Web | [meu-app-angular](https://github.com/jenifferCamar/meu-app-angular) | **A adicionar** | React, Vite e Vercel |
-| 03.1 | Atividade 03 — relatório técnico em Markdown (5 páginas) | [Repositório em grupo](https://github.com/pi-1semestre/framework-frontend-colab) | — | Framework front-end |
-| 03.2 | Projeto React Cartoon | [Repositório em grupo](https://github.com/pi-1semestre/framework-frontend-colab) | [visualizar](https://projeto-react-cartoon-framework.vercel.app/) | React |
-| 03.3 | Steven Universo | [Repositório em grupo](https://github.com/pi-1semestre/framework-frontend-colab) | [visualizar](https://steven-universo-next.vercel.app/) | Next.js |
-| 04 | 10 APIs — atividade em Markdown | [10-apis](https://github.com/jenifferCamar/10-apis) | — | Consumo de APIs |
+| 01 | Pong Blocks | [repositório](https://github.com/jenifferCamar/project-vanilla-js) · [README](https://github.com/jenifferCamar/project-vanilla-js/blob/main/README.md) | [visualizar](https://pong-blocks.vercel.app) | HTML, CSS e JavaScript |
+| 02 | Modo Web | [repositório](https://github.com/jenifferCamar/meu-app-angular) · [README](https://github.com/jenifferCamar/meu-app-angular/blob/main/README.md) | **A adicionar** | React, Vite e Vercel |
+| 03.1 | Atividade 03 — relatório técnico em Markdown (5 páginas) | [repositório em grupo](https://github.com/pi-1semestre/framework-frontend-colab) · [README](https://github.com/pi-1semestre/framework-frontend-colab/blob/main/README.md) | — | Framework front-end |
+| 03.2 | Projeto React Cartoon | [repositório em grupo](https://github.com/pi-1semestre/framework-frontend-colab) · [README](https://github.com/pi-1semestre/framework-frontend-colab/blob/main/README.md) | [visualizar](https://projeto-react-cartoon-framework.vercel.app/) | React |
+| 03.3 | Steven Universo | [repositório em grupo](https://github.com/pi-1semestre/framework-frontend-colab) · [README](https://github.com/pi-1semestre/framework-frontend-colab/blob/main/README.md) | [visualizar](https://steven-universo-next.vercel.app/) | Next.js |
+| 04 | 10 APIs — atividade em Markdown | [repositório](https://github.com/jenifferCamar/10-apis) · [README](https://github.com/jenifferCamar/10-apis/blob/main/README.md) | — | Consumo de APIs |
 
 As cinco entregas da Aula 03 estão descritas nos slides. O repositório colaborativo é o endereço geral da atividade; o Projeto 04 corresponde à sua implementação em Next.js sobre Steven Universo. O deploy dos projetos ainda precisa ser adicionado quando houver uma URL pública.
 
