@@ -23,7 +23,7 @@ Novas aulas serão acrescentadas a esta tabela conforme o conteúdo for disponib
 | Aula | Projeto | Repositório | Deploy | Tecnologia ou foco |
 | :---: | --- | --- | --- | --- |
 | 01 | Vanila js | [repositório pessoal](https://github.com/jenifferCamar/project-vanilla-js) · [README](https://github.com/jenifferCamar/project-vanilla-js/blob/main/README.md) | [visualizar](https://pong-blocks.vercel.app) | HTML, CSS e JavaScript |
-| 02 | projeto react | [repositório pessoal](https://github.com/jenifferCamar/meu-app-angular) · [README](https://github.com/jenifferCamar/meu-app-angular/blob/master/README.md) | **A adicionar** | React, Vite e Vercel |
+| 02 | projeto react | [repositório pessoal](https://github.com/jenifferCamar/meu-app-angular) · [README](https://github.com/jenifferCamar/meu-app-angular/blob/master/README.md) | [visualizar](https://meu-app-react-five.vercel.app/) | React, Vite e Vercel |
 | 03.1 | Atividade 03 — relatório técnico React em Markdown (5 páginas) | [repositório em grupo](https://github.com/pi-1semestre/framework-frontend-colab) · [README](https://github.com/pi-1semestre/framework-frontend-colab/blob/main/README.md) | — | React |
 | 03.2 | Projeto React Cartoon | [repositório em grupo](https://github.com/pi-1semestre/framework-frontend-colab) · [README](https://github.com/pi-1semestre/framework-frontend-colab/blob/main/README.md) | [visualizar](https://projeto-react-cartoon-framework.vercel.app/) | React |
 | 03.3 | Steven Universo | [repositório em grupo](https://github.com/pi-1semestre/framework-frontend-colab) · [README](https://github.com/pi-1semestre/framework-frontend-colab/blob/main/README.md) | [visualizar](https://steven-universo-next.vercel.app/) | Next.js |
