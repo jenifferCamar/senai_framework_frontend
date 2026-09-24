@@ -4,7 +4,7 @@ Repositório contínuo de **materiais, resumos e anotações** da disciplina de 
 
 Este espaço será atualizado durante o semestre. Cada nova aula terá uma pasta própria com o material apresentado, as anotações produzidas e, quando necessário, referências para atividades e projetos.
 
-> **Status:** em atualização contínua — aulas 01 a 05 registradas até o momento.
+> **Status:** em atualização contínua — aulas 01 a 07 registradas até o momento.
 
 ## Índice de aulas
 
@@ -15,30 +15,41 @@ Este espaço será atualizado durante o semestre. Cada nova aula terá uma pasta
 | 03 | Projetos com frameworks | React, Angular, Vue, Next.js, componentes e estrutura de projetos | [PDF](aulas/aula-03-projetos-com-frameworks/material-aula-03.pdf) | [Ler](aulas/aula-03-projetos-com-frameworks/anotacoes.md) |
 | 04 | Consumo de APIs | REST, HTTP, JSON, Express, Render e integração front-end/back-end | [PDF](aulas/aula-04-consumo-de-apis/material-aula-04.pdf) | [Ler](aulas/aula-04-consumo-de-apis/anotacoes.md) |
 | 05 | Criação de APIs para o front-end | API REST, Express, CORS, JSON, Render e consumo pelo front-end | [PDF](aulas/aula-05-criando-apis-para-o-front-end/material-aula-05.pdf) | [Ler](aulas/aula-05-criando-apis-para-o-front-end/anotacoes.md) |
+| 06 | Gestão de projetos front-end | Requisitos, backlog, prioridades, estimativas, Scrum, Kanban e Definition of Done | [PDF](aulas/aula-06-gestao-de-projetos-front-end/material-aula-06.pdf) | [Ler](aulas/aula-06-gestao-de-projetos-front-end/anotacoes.md) |
+| 07 | Frameworks CSS | CSS externo, Box Model, Flexbox, responsividade e Tailwind CSS | [PDF](aulas/aula-07-frameworks-css/material-aula-07.pdf) | [Ler](aulas/aula-07-frameworks-css/anotacoes.md) |
 
 Novas aulas serão acrescentadas a esta tabela conforme o conteúdo for disponibilizado.
 
 ## Projetos da disciplina
 
-| Aula | Projeto | Repositório | Deploy | Tecnologia ou foco |
+| Aula | Projeto | repositorio | Deploy | Tecnologia ou foco |
 | :---: | --- | --- | --- | --- |
-| 01 | Vanila js | [visualizar](https://github.com/jenifferCamar/project-vanilla-js) | [visualizar](https://pong-blocks.vercel.app) | HTML, CSS e JavaScript |
-| 02 | projeto react | [visualizar](https://github.com/jenifferCamar/meu-app-angular) | **A adicionar** | React, Vite e Vercel |
-| 03.1 | Relatório técnico React em PDF (5 páginas) | [visualizar](https://github.com/pi-1semestre/framework-frontend-colab) | — | React |
-| 04.1 | 10 APIs — atividade em Markdown | [visualizar](https://github.com/jenifferCamar/10-apis) | — | Consumo de APIs |
-| 04.2 | API de data e hora | [visualizar](https://github.com/jenifferCamar/atividade-02-data-hora-api) | **A adicionar** | Express / Render |
-| 04.3 | API Front de data e hora | [visualizar](https://github.com/jenifferCamar/atividade-02-data-hora-frontend) | **A adicionar** | Vite / Vercel |
+| 01.2 | Relatório técnico sobre framework front-end | [visualizar](https://github.com/pi-1semestre/atividades-desenvolvimento-web-tads2.git) | — | PDF / Frameworks front-end |
+| 01 | Vanila js | [repositorio](https://github.com/jenifferCamar/project-vanilla-js) | [visualizar](https://pong-blocks.vercel.app) | HTML, CSS e JavaScript |
+| 02 | projeto react | [repositorio](https://github.com/jenifferCamar/meu-app-angular) | [visualizar](https://meu-app-react-five.vercel.app/) | React, Vite e Vercel |
+| 03 | Projeto em grupo | [repositorio](https://github.com/pi-1semestre/framework-frontend-colab) | [visualizar](https://projeto-react-cartoon-framework.vercel.app/) | Frameworks front-end |
+| 03.1 | Steven Universo | [repositorio](https://github.com/pi-1semestre/framework-frontend-colab/blob/main/README.md) | [visualizar](https://steven-universo-next.vercel.app/) | Next.js |
+| 04.1 | 10 APIs — atividade em Markdown | [repositorio](https://github.com/jenifferCamar/10-apis) | — | Consumo de APIs |
+| 04.2 | API de data e hora | [repositorio](https://github.com/jenifferCamar/atividade-02-data-hora-api) | **A adicionar** | Express / Render |
+| 04.3 | API Front de data e hora | [repositorio](https://github.com/jenifferCamar/atividade-02-data-hora-frontend) | **A adicionar** | Vite / Vercel |
+| 06.1 | Gestão do Projeto Integrador | — | — | Backlog, Sprint, Kanban e Git |
+| 07.1 | Projeto CSS com Box Model e Flexbox | — | — | CSS e responsividade |
+| 07.2 | Projeto com Tailwind CSS | — | — | Tailwind CSS |
 
-As entregas da Aula 03 estão descritas nos slides. O relatório técnico usa o repositório colaborativo. A Aula 04 registra a pesquisa de 10 APIs e os repositórios pessoais separados da API e da API Front.
+As entregas das Aulas 01, 03, 06 e 07 incluem documentação, relatório técnico, projetos com diferentes tecnologias, gestão do projeto integrador e exercícios de CSS. O projeto em grupo e o projeto Steven Universo usam o repositório colaborativo. A Aula 04 registra a pesquisa de 10 APIs e os repositórios pessoais separados da API e da API Front.
 
 ### Campos pendentes dos projetos
 
 - [x] Registrar o projeto pessoal Vanila js.
 - [x] Registrar o projeto pessoal projeto react.
-- [x] Registrar o relatório técnico React em grupo.
+- [x] Registrar o repositório em grupo e o projeto Next.js sobre Steven Universo.
+- [ ] Registrar o relatório técnico sobre framework front-end.
 - [x] Registrar a atividade em Markdown das 10 APIs.
 - [x] Registrar os repositórios pessoais da API e da API Front.
 - [ ] Registrar os deploys da API e da API Front quando as URLs públicas forem informadas.
+- [ ] Registrar a gestão do Projeto Integrador com backlog, Sprint, Kanban, branches e Definition of Done.
+- [ ] Registrar o projeto CSS com 20 elementos e 20 propriedades ou configurações de Flexbox.
+- [ ] Registrar o projeto Tailwind com pelo menos 30 classes e documentação em Markdown.
 
 ## Finalidade do repositório
 
@@ -74,6 +85,12 @@ As entregas da Aula 03 estão descritas nos slides. O relatório técnico usa o 
     │   └── material-aula-02.pdf
     ├── aula-05-criando-apis-para-o-front-end/
     │   └── anotacoes.md
+    ├── aula-06-gestao-de-projetos-front-end/
+    │   ├── anotacoes.md
+    │   └── material-aula-06.pdf
+    ├── aula-07-frameworks-css/
+    │   ├── anotacoes.md
+    │   └── material-aula-07.pdf
     └── aula-XX-tema/
         ├── anotacoes.md
         ├── material-aula-XX.pdf
