@@ -32,7 +32,6 @@ Novas aulas serão acrescentadas a esta tabela conforme o conteúdo for disponib
 | 04.1 | 10 APIs — atividade em Markdown | [repositorio](https://github.com/jenifferCamar/10-apis) | — | Consumo de APIs |
 | 04.2 | API de data e hora | [repositorio](https://github.com/jenifferCamar/atividade-02-data-hora-api) | [visualizar](https://atividade-02-data-hora-api.vercel.app/api/saude) | Express / Vercel |
 | 04.3 | API Front de data e hora | [repositorio](https://github.com/jenifferCamar/atividade-02-data-hora-frontend) | [visualizar](https://atividade-02-data-hora-frontend.vercel.app/) | Vite / Vercel |
-| 06.1 | Gestão do Projeto Integrador | [repositorio](https://github.com/pi-1semestre/PI-1semestre) | — | Backlog, Sprint, Kanban e Git |
 | 07.1 | Projeto CSS com Box Model e Flexbox | [repositorio](https://github.com/jenifferCamar/atividade-css-box-model-flexbox) | [visualizar](https://atividade-css-box-model-flexbox.vercel.app) | CSS: 20 elementos, Box Model, 20 propriedades Flexbox |
 | 07.2 | Projeto com Tailwind CSS | [repositorio](https://github.com/jenifferCamar/atividade-tailwind-css) | [visualizar](https://atividade-tailwind-css.vercel.app) | 70+ classes Tailwind CSS |
 
