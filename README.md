@@ -29,21 +29,19 @@ Novas aulas serão acrescentadas a esta tabela conforme o conteúdo for disponib
 | 02 | Empilha! (jogo react) | [repositorio](https://github.com/jenifferCamar/meu-projeto-react) | [visualizar](https://meu-app-react-five.vercel.app/) | React, Vite e Vercel |
 | 03 | Projeto em grupo | [repositorio](https://github.com/pi-1semestre/framework-frontend-colab) | [visualizar](https://projeto-react-cartoon-framework.vercel.app/) | Frameworks front-end |
 | 03.1 | Steven Universo | [repositorio](https://github.com/pi-1semestre/framework-frontend-colab/tree/main/framework-steven-universo-next) | [visualizar](https://steven-universo-next.vercel.app/) | Next.js |
-| 03.2 | Framework IMG Vue | [repositorio](https://github.com/pi-1semestre/framework-frontend-colab/tree/main/framework-img-vue) | [visualizar](https://framework-img-vue.vercel.app/) | Vue |
-| 03.3 | React Landing Page | [repositorio](https://github.com/pi-1semestre/framework-frontend-colab/tree/main/react-landing-page-template-2021) | [visualizar](https://react-landing-page-template-2021.vercel.app/) | Next.js (template adaptado) |
 | 04.1 | 10 APIs — atividade em Markdown | [repositorio](https://github.com/jenifferCamar/10-apis) | — | Consumo de APIs |
 | 05.1 | API de data e hora | [repositorio](https://github.com/jenifferCamar/atividade-02-data-hora-api) | [visualizar](https://atividade-02-data-hora-api.vercel.app/api/saude) | Express / Vercel |
 | 05.2 | API Front de data e hora | [repositorio](https://github.com/jenifferCamar/atividade-02-data-hora-frontend) | [visualizar](https://atividade-02-data-hora-frontend.vercel.app/) | Vite / Vercel |
 | 07.1 | Projeto CSS com Box Model e Flexbox | [repositorio](https://github.com/jenifferCamar/atividade-css-box-model-flexbox) | [visualizar](https://atividade-css-box-model-flexbox.vercel.app) | CSS: 20 elementos, Box Model, 20 propriedades Flexbox |
 | 07.2 | Projeto com Tailwind CSS | [repositorio](https://github.com/jenifferCamar/atividade-tailwind-css) | [visualizar](https://atividade-tailwind-css.vercel.app) | 70+ classes Tailwind CSS, documentação em Markdown com prints |
 
-As entregas das Aulas 01, 02, 03, 05 e 07 incluem documentação, relatório técnico, projetos com diferentes tecnologias e exercícios de CSS. O projeto em grupo e os projetos Steven Universo, Vue e template adaptado usam o repositório colaborativo. A Aula 04 registra a pesquisa de 10 APIs. A Aula 05 registra os repositórios pessoais separados da API e da API Front.
+As entregas das Aulas 01, 02, 03, 05 e 07 incluem documentação, relatório técnico, projetos com diferentes tecnologias e exercícios de CSS. O projeto em grupo e o projeto Steven Universo usam o repositório colaborativo. A Aula 04 registra a pesquisa de 10 APIs. A Aula 05 registra os repositórios pessoais separados da API e da API Front.
 
 ### Campos pendentes dos projetos
 
 - [x] Registrar o projeto pessoal Vanila js.
 - [x] Registrar o projeto pessoal projeto react.
-- [x] Registrar o repositório em grupo e os projetos Next.js (Steven Universo), Vue e template adaptado.
+- [x] Registrar o repositório em grupo e o projeto Next.js (Steven Universo).
 - [x] Registrar o relatório técnico sobre framework front-end.
 - [x] Registrar a atividade em Markdown das 10 APIs.
 - [x] Registrar os repositórios pessoais da API e da API Front (Atividade 02 da Aula 05).
