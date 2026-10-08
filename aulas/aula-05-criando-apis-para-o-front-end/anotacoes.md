@@ -162,31 +162,31 @@ O Render oferece integração com Git, deploy automático, SSL e recursos adequa
 
 ## Atividades
 
-> A pesquisa das 10 APIs (Consumo de APIs) é realizada na Aula 04. Esta aula dedica-se à criação da API.
+> A atividade de "10 APIs" ( Consumo de APIs) e a "API de data e hora" são da Aula 04. Esta aula dedica-se à criação de uma API CRUD.
 
-### Atividade 01 — API de data e hora
+### Atividade 01 — Projeto CRUD com Express, Postman e Render
 
-1. Criar uma API Express com uma rota de data e hora.
-2. Publicar a API no Render.
-3. Criar um front-end consumidor.
-4. Publicar o front-end.
-5. Manter API e front-end em repositórios separados.
-6. Entregar prints do código, da aplicação e dos painéis de deploy, além dos links dos projetos.
+1. Criar uma API Express com rotas que implementam as quatro operações de CRUD (Create, Read, Update, Delete).
+2. Fazer o deploy do back-end no Render.
+3. Construir um front-end que consome as rotas do CRUD.
+4. Criar uma coleção no Postman documentando as quatro operações CRUD, definindo parâmetros e descrições sobre códigos de resposta.
+5. Organizar tudo em um documento contendo prints do código, da aplicação em funcionamento, o link do repositório no GitHub, o deploy na Vercel e o link da coleção do Postman.
+6. Enviar o documento na plataforma CANVA.
 
 ## Checklist
 
-- [ ] Sei explicar o que é uma API e um endpoint.
-- [ ] Consigo associar métodos HTTP às operações básicas.
-- [ ] Entendo a estrutura de objetos e arrays JSON.
-- [ ] Consigo criar uma rota Express.
-- [ ] Sei por que CORS é necessário no navegador.
-- [ ] O front-end trata carregamento, sucesso e erro.
-- [ ] A API e o front-end têm repositórios e deploys documentados.
+- [ ] Consigo associar métodos HTTP (`POST`, `GET`, `PUT`/`PATCH`, `DELETE`) às operações CRUD.
+- [ ] Crio rotas Express para Create, Read, Update e Delete.
+- [ ] Configuro CORS para receber requisições do navegador.
+- [ ] Publico a API no Render com health check.
+- [ ] O front-end consome todas as rotas CRUD e trata carregamento, sucesso e erro.
+- [ ] Crio uma coleção Postman com as quatro operações e descrições de códigos de resposta.
+- [ ] Organizo prints, links de repositório, deploy na Vercel e coleção Postman em um documento no Canva.
 
 ## Perguntas para estudar
 
-1. Qual é a responsabilidade da API no fluxo entre front-end e servidor?
-2. Qual é a diferença entre `PUT` e `PATCH`?
-3. Por que uma chamada entre portas diferentes pode ser bloqueada pelo navegador?
-4. Como o Render participa da publicação de uma API?
-5. Por que é recomendável separar o repositório do front-end do repositório da API?
+1. Como `POST`, `GET`, `PUT` e `DELETE` se relacionam com as operações CRUD?
+2. Qual é a diferença entre `PUT` e `PATCH` na atualização de um recurso?
+3. Por que CORS precisa ser configurado quando o front-end e a API estão em domínios diferentes?
+4. Como o Render participa da publicação de uma API Express?
+5. Por que manter API e front-end em repositórios separados é uma boa prática?

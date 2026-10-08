@@ -30,12 +30,13 @@ Novas aulas serão acrescentadas a esta tabela conforme o conteúdo for disponib
 | 03 | Projeto em grupo | [repositorio](https://github.com/pi-1semestre/framework-frontend-colab) | [visualizar](https://projeto-react-cartoon-framework.vercel.app/) | Frameworks front-end |
 | 03.1 | Steven Universo | [repositorio](https://github.com/pi-1semestre/framework-frontend-colab/tree/main/framework-steven-universo-next) | [visualizar](https://steven-universo-next.vercel.app/) | Next.js |
 | 04.1 | 10 APIs — atividade em Markdown | [repositorio](https://github.com/jenifferCamar/10-apis) | — | Consumo de APIs |
-| 05.1 | API de data e hora | [repositorio](https://github.com/jenifferCamar/atividade-02-data-hora-api) | [visualizar](https://atividade-02-data-hora-api.vercel.app/api/saude) | Express / Vercel |
-| 05.2 | API Front de data e hora | [repositorio](https://github.com/jenifferCamar/atividade-02-data-hora-frontend) | [visualizar](https://atividade-02-data-hora-frontend.vercel.app/) | Vite / Vercel |
+| 04.2 | API de data e hora | [repositorio](https://github.com/jenifferCamar/atividade-02-data-hora-api) | [visualizar](https://atividade-02-data-hora-api.vercel.app/api/saude) | Express / Vercel |
+| 04.3 | API Front de data e hora | [repositorio](https://github.com/jenifferCamar/atividade-02-data-hora-frontend) | [visualizar](https://atividade-02-data-hora-frontend.vercel.app/) | Vite / Vercel |
+| 05 | Projeto CRUD (Express + Front-End) | — | — | Express, CRUD, Postman, Render |
 | 07.1 | Projeto CSS com Box Model e Flexbox | [repositorio](https://github.com/jenifferCamar/atividade-css-box-model-flexbox) | [visualizar](https://atividade-css-box-model-flexbox.vercel.app) | CSS: 20 elementos, Box Model, 20 propriedades Flexbox |
 | 07.2 | Projeto com Tailwind CSS | [repositorio](https://github.com/jenifferCamar/atividade-tailwind-css) | [visualizar](https://atividade-tailwind-css.vercel.app) | 70+ classes Tailwind CSS, documentação em Markdown com prints |
 
-As entregas das Aulas 01, 02, 03, 05 e 07 incluem documentação, relatório técnico, projetos com diferentes tecnologias e exercícios de CSS. O projeto em grupo e o projeto Steven Universo usam o repositório colaborativo. A Aula 04 registra a pesquisa de 10 APIs. A Aula 05 registra os repositórios pessoais separados da API e da API Front.
+As entregas das Aulas 01, 02, 03, 04 e 07 incluem documentação, relatório técnico, projetos com diferentes tecnologias e exercícios de CSS. O projeto em grupo e o projeto Steven Universo usam o repositório colaborativo. A Aula 04 registra a pesquisa de 10 APIs e os repositórios pessoais separados da API e da API Front (data e hora). A Aula 05 tem a atividade de CRUD com Express, Postman e deploy no Render, mas o repositório ainda não foi criado.
 
 ### Campos pendentes dos projetos
 
@@ -43,9 +44,10 @@ As entregas das Aulas 01, 02, 03, 05 e 07 incluem documentação, relatório té
 - [x] Registrar o projeto pessoal projeto react.
 - [x] Registrar o repositório em grupo e o projeto Next.js (Steven Universo).
 - [x] Registrar o relatório técnico sobre framework front-end.
-- [x] Registrar a atividade em Markdown das 10 APIs.
-- [x] Registrar os repositórios pessoais da API e da API Front (Atividade 02 da Aula 05).
+- [x] Registrar a atividade em Markdown das 10 APIs (Aula 04).
+- [x] Registrar os repositórios pessoais da API e da API Front de data e hora (Aula 04).
 - [x] Registrar os deploys da API e da API Front quando as URLs públicas forem informadas.
+- [ ] Registrar o projeto CRUD da Aula 05 (Express, Postman, Render — repositório ainda não criado).
 - [x] Registrar o projeto CSS com 20 elementos e 20 propriedades ou configurações de Flexbox (`atividade-css-box-model-flexbox`).
 - [x] Registrar o projeto Tailwind com pelo menos 30 classes e documentação em Markdown (`atividade-tailwind-css`).
 
