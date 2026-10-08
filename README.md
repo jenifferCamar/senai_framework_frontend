@@ -30,8 +30,8 @@ Novas aulas serão acrescentadas a esta tabela conforme o conteúdo for disponib
 | 03 | Projeto em grupo | [repositorio](https://github.com/pi-1semestre/framework-frontend-colab) | [visualizar](https://projeto-react-cartoon-framework.vercel.app/) | Frameworks front-end |
 | 03.1 | Steven Universo | [repositorio](https://github.com/pi-1semestre/framework-frontend-colab/tree/main/framework-steven-universo-next) | [visualizar](https://steven-universo-next.vercel.app/) | Next.js |
 | 04.1 | 10 APIs — atividade em Markdown | [repositorio](https://github.com/jenifferCamar/10-apis) | — | Consumo de APIs |
-| 04.2 | API de data e hora | [repositorio](https://github.com/jenifferCamar/atividade-02-data-hora-api) | **A adicionar** | Express / Render |
-| 04.3 | API Front de data e hora | [repositorio](https://github.com/jenifferCamar/atividade-02-data-hora-frontend) | **A adicionar** | Vite / Vercel |
+| 04.2 | API de data e hora | [repositorio](https://github.com/jenifferCamar/atividade-02-data-hora-api) | [visualizar](https://atividade-02-data-hora-api.vercel.app/api/saude) | Express / Vercel |
+| 04.3 | API Front de data e hora | [repositorio](https://github.com/jenifferCamar/atividade-02-data-hora-frontend) | [visualizar](https://atividade-02-data-hora-frontend.vercel.app/) | Vite / Vercel |
 | 06.1 | Gestão do Projeto Integrador | [repositorio](https://github.com/pi-1semestre/PI-1semestre) | — | Backlog, Sprint, Kanban e Git |
 | 07.1 | Projeto CSS com Box Model e Flexbox | [repositorio](https://github.com/jenifferCamar/atividade-css-box-model-flexbox) | [visualizar](https://atividade-css-box-model-flexbox.vercel.app) | CSS: 20 elementos, Box Model, 20 propriedades Flexbox |
 | 07.2 | Projeto com Tailwind CSS | [repositorio](https://github.com/jenifferCamar/atividade-tailwind-css) | [visualizar](https://atividade-tailwind-css.vercel.app) | 70+ classes Tailwind CSS |
@@ -46,7 +46,7 @@ As entregas das Aulas 01, 03, 06 e 07 incluem documentação, relatório técnic
 - [x] Registrar o relatório técnico sobre framework front-end.
 - [x] Registrar a atividade em Markdown das 10 APIs.
 - [x] Registrar os repositórios pessoais da API e da API Front.
-- [ ] Registrar os deploys da API e da API Front quando as URLs públicas forem informadas.
+- [x] Registrar os deploys da API e da API Front quando as URLs públicas forem informadas.
 - [x] Registrar a gestão do Projeto Integrador com backlog, Sprint, Kanban, branches e Definition of Done.
 - [x] Registrar o projeto CSS com 20 elementos e 20 propriedades ou configurações de Flexbox (`atividade-css-box-model-flexbox`).
 - [x] Registrar o projeto Tailwind com pelo menos 30 classes e documentação em Markdown (`atividade-tailwind-css`).
