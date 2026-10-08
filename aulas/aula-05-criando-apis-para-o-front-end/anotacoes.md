@@ -162,15 +162,9 @@ O Render oferece integração com Git, deploy automático, SSL e recursos adequa
 
 ## Atividades
 
-### Atividade 01 — Pesquisa de APIs
+> A pesquisa das 10 APIs (Consumo de APIs) é realizada na Aula 04. Esta aula dedica-se à criação da API.
 
-Pesquisar dez projetos no GitHub que consumam APIs. Clonar e analisar cada projeto, identificando o framework, a API utilizada e a finalidade da integração. Registrar os resultados em uma tabela Markdown.
-
-| Projeto | Repositório | Framework | API consumida | Finalidade |
-| --- | --- | --- | --- | --- |
-| Exemplo | URL | React | Nome da API | Dados exibidos |
-
-### Atividade 02 — API de data e hora
+### Atividade 01 — API de data e hora
 
 1. Criar uma API Express com uma rota de data e hora.
 2. Publicar a API no Render.
