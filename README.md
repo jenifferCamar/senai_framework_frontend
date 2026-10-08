@@ -24,17 +24,17 @@ Novas aulas serão acrescentadas a esta tabela conforme o conteúdo for disponib
 
 | Aula | Projeto | repositorio | Deploy | Tecnologia ou foco |
 | :---: | --- | --- | --- | --- |
-| 01.2 | Relatório técnico sobre framework front-end | [visualizar](https://github.com/pi-1semestre/atividades-desenvolvimento-web-tads2.git) | — | PDF / Frameworks front-end |
-| 01 | Vanila js | [repositorio](https://github.com/jenifferCamar/project-vanilla-js) | [visualizar](https://pong-blocks.vercel.app) | HTML, CSS e JavaScript |
-| 02 | projeto react | [repositorio](https://github.com/jenifferCamar/meu-app-angular) | [visualizar](https://meu-app-react-five.vercel.app/) | React, Vite e Vercel |
+| 01.2 | Relatório técnico sobre framework front-end | [visualizar](https://github.com/pi-1semestre/atividades-desenvolvimento-web-tads2) | — | PDF / Frameworks front-end |
+| 01 | Vanila js | [repositorio](https://github.com/jenifferCamar/project-vanilla-js) | [visualizar](https://pong-blocks.vercel.app/) | HTML, CSS e JavaScript |
+| 02 | Empilha! (jogo react) | [repositorio](https://github.com/jenifferCamar/meu-projeto-react) | [visualizar](https://meu-app-react-five.vercel.app/) | React, Vite e Vercel |
 | 03 | Projeto em grupo | [repositorio](https://github.com/pi-1semestre/framework-frontend-colab) | [visualizar](https://projeto-react-cartoon-framework.vercel.app/) | Frameworks front-end |
-| 03.1 | Steven Universo | [repositorio](https://github.com/pi-1semestre/framework-frontend-colab/blob/main/README.md) | [visualizar](https://steven-universo-next.vercel.app/) | Next.js |
+| 03.1 | Steven Universo | [repositorio](https://github.com/pi-1semestre/framework-frontend-colab/tree/main/framework-steven-universo-next) | [visualizar](https://steven-universo-next.vercel.app/) | Next.js |
 | 04.1 | 10 APIs — atividade em Markdown | [repositorio](https://github.com/jenifferCamar/10-apis) | — | Consumo de APIs |
 | 04.2 | API de data e hora | [repositorio](https://github.com/jenifferCamar/atividade-02-data-hora-api) | **A adicionar** | Express / Render |
 | 04.3 | API Front de data e hora | [repositorio](https://github.com/jenifferCamar/atividade-02-data-hora-frontend) | **A adicionar** | Vite / Vercel |
-| 06.1 | Gestão do Projeto Integrador | — | — | Backlog, Sprint, Kanban e Git |
-| 07.1 | Projeto CSS com Box Model e Flexbox | — | — | CSS e responsividade |
-| 07.2 | Projeto com Tailwind CSS | — | — | Tailwind CSS |
+| 06.1 | Gestão do Projeto Integrador | [repositorio](https://github.com/pi-1semestre/PI-1semestre) | — | Backlog, Sprint, Kanban e Git |
+| 07.1 | Projeto CSS com Box Model e Flexbox | [repositorio](https://github.com/jenifferCamar/atividade-css-box-model-flexbox) | [visualizar](https://atividade-css-box-model-flexbox.vercel.app) | CSS: 20 elementos, Box Model, 20 propriedades Flexbox |
+| 07.2 | Projeto com Tailwind CSS | [repositorio](https://github.com/jenifferCamar/atividade-tailwind-css) | [visualizar](https://atividade-tailwind-css.vercel.app) | 70+ classes Tailwind CSS |
 
 As entregas das Aulas 01, 03, 06 e 07 incluem documentação, relatório técnico, projetos com diferentes tecnologias, gestão do projeto integrador e exercícios de CSS. O projeto em grupo e o projeto Steven Universo usam o repositório colaborativo. A Aula 04 registra a pesquisa de 10 APIs e os repositórios pessoais separados da API e da API Front.
 
@@ -43,13 +43,13 @@ As entregas das Aulas 01, 03, 06 e 07 incluem documentação, relatório técnic
 - [x] Registrar o projeto pessoal Vanila js.
 - [x] Registrar o projeto pessoal projeto react.
 - [x] Registrar o repositório em grupo e o projeto Next.js sobre Steven Universo.
-- [ ] Registrar o relatório técnico sobre framework front-end.
+- [x] Registrar o relatório técnico sobre framework front-end.
 - [x] Registrar a atividade em Markdown das 10 APIs.
 - [x] Registrar os repositórios pessoais da API e da API Front.
 - [ ] Registrar os deploys da API e da API Front quando as URLs públicas forem informadas.
-- [ ] Registrar a gestão do Projeto Integrador com backlog, Sprint, Kanban, branches e Definition of Done.
-- [ ] Registrar o projeto CSS com 20 elementos e 20 propriedades ou configurações de Flexbox.
-- [ ] Registrar o projeto Tailwind com pelo menos 30 classes e documentação em Markdown.
+- [x] Registrar a gestão do Projeto Integrador com backlog, Sprint, Kanban, branches e Definition of Done.
+- [x] Registrar o projeto CSS com 20 elementos e 20 propriedades ou configurações de Flexbox (`atividade-css-box-model-flexbox`).
+- [x] Registrar o projeto Tailwind com pelo menos 30 classes e documentação em Markdown (`atividade-tailwind-css`).
 
 ## Finalidade do repositório
 
