@@ -48,8 +48,10 @@ As entregas das Aulas 01, 02, 03, 04 e 07 incluem documentação, relatório té
 - [x] Registrar a atividade em Markdown das 10 APIs (Aula 04).
 - [x] Registrar os repositórios pessoais da API e da API Front de data e hora (Aula 04).
 - [x] Registrar os deploys da API e da API Front quando as URLs públicas forem informadas.
-- [ ] Registrar a API CRUD de notas no GitHub (`atividade-crud-api`) e fazer deploy no Render.
-- [ ] Registrar o deploy do front-end CRUD na Vercel (`atividade-crud-frontend`).
+- [x] Registrar o repositório da API CRUD de notas no GitHub (`atividade-crud-api`).
+- [ ] Fazer o deploy da API CRUD no Render.
+- [x] Registrar o repositório do front-end CRUD no GitHub (`atividade-crud-frontend`).
+- [ ] Fazer o deploy do front-end CRUD na Vercel.
 - [x] Registrar o projeto CSS com 20 elementos e 20 propriedades ou configurações de Flexbox (`atividade-css-box-model-flexbox`).
 - [x] Registrar o projeto Tailwind com pelo menos 30 classes e documentação em Markdown (`atividade-tailwind-css`).
 
