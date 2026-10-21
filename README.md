@@ -4,7 +4,7 @@ Repositório contínuo de **materiais, resumos e anotações** da disciplina de 
 
 Este espaço será atualizado durante o semestre. Cada nova aula terá uma pasta própria com o material apresentado, as anotações produzidas e, quando necessário, referências para atividades e projetos.
 
-> **Status:** em atualização contínua — aulas 01 a 07 registradas até o momento.
+> **Status:** em atualização contínua — aulas 01 a 08 registradas até o momento.
 
 ## Índice de aulas
 
@@ -17,6 +17,7 @@ Este espaço será atualizado durante o semestre. Cada nova aula terá uma pasta
 | 05 | Criação de APIs para o front-end | API REST, Express, CORS, JSON, Render e consumo pelo front-end | [PDF](aulas/aula-05-criando-apis-para-o-front-end/material-aula-05.pdf) | [Ler](aulas/aula-05-criando-apis-para-o-front-end/anotacoes.md) |
 | 06 | Gestão de projetos front-end | Requisitos, backlog, prioridades, estimativas, Scrum, Kanban e Definition of Done | [PDF](aulas/aula-06-gestao-de-projetos-front-end/material-aula-06.pdf) | [Ler](aulas/aula-06-gestao-de-projetos-front-end/anotacoes.md) |
 | 07 | Frameworks CSS | CSS externo, Box Model, Flexbox, responsividade e Tailwind CSS | [PDF](aulas/aula-07-frameworks-css/material-aula-07.pdf) | [Ler](aulas/aula-07-frameworks-css/anotacoes.md) |
+| 08 | Projeto React | Revisão JS, React, JSX, componentes, props, Virtual DOM, listas/keys, renderização condicional | [PDF](aulas/aula-08-projeto-react/material-aula-08.pdf) | [Ler](aulas/aula-08-projeto-react/anotacoes.md) |
 
 Novas aulas serão acrescentadas a esta tabela conforme o conteúdo for disponibilizado.
 
@@ -36,8 +37,9 @@ Novas aulas serão acrescentadas a esta tabela conforme o conteúdo for disponib
 | 05.2 | Front-end CRUD (Notas) | [repositorio](https://github.com/jenifferCamar/atividade-crud-frontend) | — | HTML, CSS, JavaScript (Fetch API) |
 | 07.1 | Projeto CSS com Box Model e Flexbox | [repositorio](https://github.com/jenifferCamar/atividade-css-box-model-flexbox) | [visualizar](https://atividade-css-box-model-flexbox.vercel.app) | CSS: 20 elementos, Box Model, 20 propriedades Flexbox |
 | 07.2 | Projeto com Tailwind CSS | [repositorio](https://github.com/jenifferCamar/atividade-tailwind-css) | [visualizar](https://atividade-tailwind-css.vercel.app) | 70+ classes Tailwind CSS, documentação em Markdown com prints |
+| 08.1 | Projeto React | [repositorio](https://github.com/jenifferCamar/atividade-08-projeto-react) | [visualizar](https://atividade-08-projeto-react.vercel.app) | React, JSX, componentes, props, Virtual DOM, listas/keys, renderização condicional |
 
-As entregas das Aulas 01, 02, 03, 04 e 07 incluem documentação, relatório técnico, projetos com diferentes tecnologias e exercícios de CSS. O projeto em grupo e o projeto Steven Universo usam o repositório colaborativo. A Aula 04 registra a pesquisa de 10 APIs e os repositórios pessoais separados da API e da API Front (data e hora). A Aula 05 registra a atividade CRUD de notas (API Express + Front-End + Postman). O front-end foi criado no GitHub (`atividade-crud-frontend`), mas ainda não foi conectado ao Vercel. A API CRUD (`atividade-crud-api`) foi desenvolvida localmente e precisa ser criada no GitHub para deploy no Render.
+As entregas das Aulas 01, 02, 03, 04, 05, 07 e 08 incluem documentação, relatório técnico, projetos com diferentes tecnologias e exercícios de CSS. O projeto em grupo e o projeto Steven Universo usam o repositório colaborativo. A Aula 04 registra a pesquisa de 10 APIs e os repositórios pessoais separados da API e da API Front (data e hora). A Aula 05 registra a atividade CRUD de notas (API Express + Front-End + Postman), com a API já publicada no GitHub (`atividade-crud-api`) e o front-end em `atividade-crud-frontend`; ambos ainda aguardam deploy (Render e Vercel). A Aula 08 registra o projeto React, que consome conceitos de JSX, componentes, props, Virtual DOM, listas/keys e renderização condicional; o repositório `atividade-08-projeto-react` ainda precisa ser criado e publicado na Vercel.
 
 ### Campos pendentes dos projetos
 
@@ -52,6 +54,8 @@ As entregas das Aulas 01, 02, 03, 04 e 07 incluem documentação, relatório té
 - [ ] Fazer o deploy da API CRUD no Render.
 - [x] Registrar o repositório do front-end CRUD no GitHub (`atividade-crud-frontend`).
 - [ ] Fazer o deploy do front-end CRUD na Vercel.
+- [ ] Registrar o repositório do projeto React no GitHub (`atividade-08-projeto-react`).
+- [ ] Fazer o deploy do projeto React na Vercel.
 - [x] Registrar o projeto CSS com 20 elementos e 20 propriedades ou configurações de Flexbox (`atividade-css-box-model-flexbox`).
 - [x] Registrar o projeto Tailwind com pelo menos 30 classes e documentação em Markdown (`atividade-tailwind-css`).
 
@@ -95,6 +99,9 @@ As entregas das Aulas 01, 02, 03, 04 e 07 incluem documentação, relatório té
     ├── aula-07-frameworks-css/
     │   ├── anotacoes.md
     │   └── material-aula-07.pdf
+    ├── aula-08-projeto-react/
+    │   ├── anotacoes.md
+    │   └── material-aula-08.pdf
     └── aula-XX-tema/
         ├── anotacoes.md
         ├── material-aula-XX.pdf
