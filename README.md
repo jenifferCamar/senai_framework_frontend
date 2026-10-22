@@ -54,7 +54,7 @@ As entregas das Aulas 01, 02, 03, 04, 05, 07 e 08 incluem documentação, relat�
 - [ ] Fazer o deploy da API CRUD no Render.
 - [x] Registrar o repositório do front-end CRUD no GitHub (`atividade-crud-frontend`).
 - [ ] Fazer o deploy do front-end CRUD na Vercel.
-- [ ] Registrar o repositório do projeto React no GitHub (`Minha-estante-de-livros`).
+- [x] Registrar o repositório do projeto React no GitHub (`Minha-estante-de-livros`).
 - [ ] Fazer o deploy do projeto React na Vercel.
 - [x] Registrar o projeto CSS com 20 elementos e 20 propriedades ou configurações de Flexbox (`atividade-css-box-model-flexbox`).
 - [x] Registrar o projeto Tailwind com pelo menos 30 classes e documentação em Markdown (`atividade-tailwind-css`).
