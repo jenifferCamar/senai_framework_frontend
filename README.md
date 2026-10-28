@@ -17,7 +17,7 @@ Este espaço será atualizado durante o semestre. Cada nova aula terá uma pasta pr
 | 05 | Criação de APIs para o front-end | API REST, Express, CORS, JSON, Render e consumo pelo front-end | [PDF](aulas/aula-05-criando-apis-para-o-front-end/material-aula-05.pdf) | [Ler](aulas/aula-05-criando-apis-para-o-front-end/anotacoes.md) |
 | 06 | Gestão de projetos front-end | Requisitos, backlog, prioridades, estimativas, Scrum, Kanban e Definition of Done | [PDF](aulas/aula-06-gestao-de-projetos-front-end/material-aula-06.pdf) | [Ler](aulas/aula-06-gestao-de-projetos-front-end/anotacoes.md) |
 | 07 | Frameworks CSS | CSS externo, Box Model, Flexbox, responsividade e Tailwind CSS | [PDF](aulas/aula-07-frameworks-css/material-aula-07.pdf) | [Ler](aulas/aula-07-frameworks-css/anotacoes.md) |
-| 08 | Projeto React | Revisão JS, React, JSX, componentes, props, Virtual DOM, listas/keys, renderização condicional | [PDF](aulas/aula-08-projeto-react/material-aula-08.pdf) | [Ler](aulas/aula-08-projeto-react/anotacoes.md) |
+| 08 | Projeto React | JSX, componentes, props, Virtual DOM, listas/keys e renderização condicional | [PDF](aulas/aula-08-projeto-react/material-aula-08.pdf) | [Ler](aulas/aula-08-projeto-react/anotacoes.md) |
 
 ## Projetos da disciplina
 
