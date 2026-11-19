@@ -1,4 +1,4 @@
-﻿# Frameworks Front-end
+# Frameworks Front-end
 
 Repositï¿½rio contï¿½nuo de **materiais, resumos e anotaï¿½ï¿½es** da disciplina de Frameworks Front-end do SENAI.
 
@@ -37,5 +37,5 @@ Este espaï¿½o serï¿½ atualizado durante o semestre. Cada nova aula terï¿
 | 07.1 | Projeto CSS com Box Model e Flexbox | [repositï¿½rio](https://github.com/jenifferCamar/atividade-css-box-model-flexbox) | [visualizar](https://atividade-css-box-model-flexbox.vercel.app) | CSS: 20 elementos, Box Model, 20 propriedades Flexbox |
 | 07.2 | Projeto com Tailwind CSS | [repositï¿½rio](https://github.com/jenifferCamar/atividade-tailwind-css) | [visualizar](https://atividade-tailwind-css.vercel.app) | 70+ classes Tailwind CSS, documentaï¿½ï¿½o em Markdown com prints |
 | 08.1 | Minha Estante de Livros | [repositï¿½rio](https://github.com/jenifferCamar/Minha-estante-de-livros) | [visualizar](https://minha-estante-de-livros.vercel.app) | React, JSX, componentes, props, Virtual DOM, listas/keys, renderizaï¿½ï¿½o condicional |
-| 09.1 | Projeto React 02 | [repositório](https://github.com/jenifferCamar/atividade-projeto-react-02) | — | React: `useState`, `useEffect`, eventos, formulários controlados, listas e integração com dados |
+| 09.1 | Projeto React 02 | [repositório](https://github.com/jenifferCamar/atividade-projeto-react-02) | [visualizar](https://atividade-projeto-react-02.vercel.app) | React: `useState`, `useEffect`, eventos, formulários controlados, listas e integração com dados |
 
