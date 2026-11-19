@@ -48,6 +48,6 @@ projetos/vanilla-js/
 
 ## Deploy
 
-Publicado na Vercel: https://pong-blocks.vercel.app/
+Publicado na Vercel: https://project-vanilla-js-black.vercel.app/
 
 Repositório: https://github.com/jenifferCamar/project-vanilla-js
