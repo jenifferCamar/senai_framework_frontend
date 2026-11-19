@@ -4,7 +4,9 @@ Projeto da **Atividade 01** da disciplina Frameworks Front-end (SENAI).
 
 Implementação em HTML, CSS e JavaScript puro (sem frameworks) com:
 - Controle de um bloco na tela pelas teclas clássicas do notebook (setas direcionais e WASD)
+- **Não responde ao mouse** — apenas teclado
 - Pausa e despausa pressionando a tecla **Espaço**
+- Botão de **Reiniciar** para voltar o bloco ao centro
 
 ## Tecnologias
 
