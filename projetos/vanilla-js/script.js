@@ -2,6 +2,7 @@ const canvas = document.getElementById('gameCanvas');
 const ctx = canvas.getContext('2d');
 const statusText = document.getElementById('status-text');
 const pauseIndicator = document.getElementById('pause-indicator');
+const btnReiniciar = document.getElementById('btn-reiniciar');
 
 const TECLAS = {
   CIMA: ['ArrowUp', 'w', 'W'],
@@ -20,6 +21,8 @@ const estado = {
   direcao: 'parado',
   pressionadas: {},
   pausado: false,
+  xInicial: 275,
+  yInicial: 175,
 };
 
 function teclaEh(tecla, grupo) {
@@ -43,6 +46,16 @@ window.addEventListener('keydown', (e) => {
 window.addEventListener('keyup', (e) => {
   delete estado.pressionadas[e.key];
   atualizarDirecao();
+});
+
+btnReiniciar.addEventListener('click', () => {
+  estado.x = estado.xInicial;
+  estado.y = estado.yInicial;
+  estado.direcao = 'parado';
+  estado.pressionadas = {};
+  estado.pausado = false;
+  pauseIndicator.classList.add('hidden');
+  statusText.textContent = 'Reiniciado — pronto para mover';
 });
 
 function atualizarDirecao() {

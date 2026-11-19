@@ -9,7 +9,7 @@
 <body>
   <div class="container">
     <h1>🎮 Controle por Teclado</h1>
-    <p class="subtitle">Use as setas ou WASD para mover o bloco. Pressione <b>Espaço</b> para pausar/despausar.</p>
+    <p class="subtitle">Use as setas ou WASD para mover o bloco. <b>Espaço</b> pausa/despausa.</p>
 
     <div class="controls-info">
       <div class="key">⬆ / W — Cima</div>
@@ -28,8 +28,12 @@
       <canvas id="gameCanvas" width="600" height="400"></canvas>
     </div>
 
+    <div class="controls-row">
+      <button id="btn-reiniciar" type="button">🔄 Reiniciar</button>
+    </div>
+
     <div class="instructions">
-      <p>O bloco começa no centro da tela. Mova-o com as teclas. Ao pressionar Espaço, o bloco congela no lugar; pressione novamente para continuar.</p>
+      <p>O bloco começa no centro da tela. Mova-o apenas com as teclas (setas ou WASD). O jogo não responde ao mouse. Pressione Espaço para pausar ou despausar. Use Reiniciar para voltar o bloco ao centro.</p>
     </div>
   </div>
 
