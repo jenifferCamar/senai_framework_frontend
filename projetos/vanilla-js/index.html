@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vanilla JS — Controle por Teclado</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎮 Controle por Teclado</h1>
+    <p class="subtitle">Use as setas ou WASD para mover o bloco. Pressione <b>Espaço</b> para pausar/despausar.</p>
+
+    <div class="controls-info">
+      <div class="key">⬆ / W — Cima</div>
+      <div class="key">⬇ / S — Baixo</div>
+      <div class="key">⬅ / A — Esquerda</div>
+      <div class="key">➡ / D — Direita</div>
+      <div class="key space">␣ Espaço — Pausar / Despausar</div>
+    </div>
+
+    <div class="status-bar">
+      <span id="status-text">Pronto para mover</span>
+      <span id="pause-indicator" class="hidden">⏸ PAUSADO</span>
+    </div>
+
+    <div class="game-wrapper">
+      <canvas id="gameCanvas" width="600" height="400"></canvas>
+    </div>
+
+    <div class="instructions">
+      <p>O bloco começa no centro da tela. Mova-o com as teclas. Ao pressionar Espaço, o bloco congela no lugar; pressione novamente para continuar.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
