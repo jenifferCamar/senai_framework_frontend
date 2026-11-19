@@ -25,8 +25,8 @@ Este espaço será atualizado durante o semestre. Cada nova aula terá uma pasta
 | Aula | Projeto | Repositório | Deploy | Tecnologia ou foco |
 | :---: | --- | --- | --- | --- |
 | 01.2 | Relatório técnico sobre framework front-end | [visualizar](https://github.com/pi-1semestre/atividades-desenvolvimento-web-tads2) | — | PDF / Frameworks front-end |
-| 01 | Vanila js | [repositório](https://github.com/jenifferCamar/project-vanilla-js) | [visualizar](https://project-vanilla-js-black.vercel.app/) | HTML, CSS e JavaScript |
-| 02 | Empilha! (jogo react) | [repositório](https://github.com/jenifferCamar/meu-projeto-react) | [visualizar](https://meu-projeto-react-jet.vercel.app/) | React, Vite e Vercel |
+| 01 | Vanila js | [repositório](https://github.com/jenifferCamar/project-vanilla-js) | [visualizar](https://pong-blocks.vercel.app/) | HTML, CSS e JavaScript |
+| 02 | Empilha! (jogo react) | [repositório](https://github.com/jenifferCamar/meu-projeto-react) | [visualizar](https://meu-app-react-five.vercel.app/) | React, Vite e Vercel |
 | 03 | Projeto em grupo | [repositório](https://github.com/pi-1semestre/framework-frontend-colab) | [visualizar](https://projeto-react-cartoon-framework.vercel.app/) | Frameworks front-end |
 | 03.1 | Steven Universo | [repositório](https://github.com/pi-1semestre/framework-frontend-colab/tree/main/framework-steven-universo-next) | [visualizar](https://steven-universo-next.vercel.app/) | Next.js |
 | 04.1 | 10 APIs — atividade em Markdown | [repositório](https://github.com/jenifferCamar/10-apis) | — | Consumo de APIs |
