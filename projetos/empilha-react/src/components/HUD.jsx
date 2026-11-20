@@ -2,25 +2,27 @@ import React from 'react';
 
 export default function HUD({ score, bestScore, level, combo }) {
   return (
-    <div className="hud" aria-label="Placar">
-      <div className="hud-item hud-main">
-        <span>Pontos</span>
-        <strong>{String(score).padStart(4, '0')}</strong>
+    <header className="hud" aria-label="Placar do jogo">
+      <div className="hud-pill hud-main">
+        <span className="hud-label">Pontos</span>
+        <strong className="hud-value">{String(score).padStart(4, '0')}</strong>
       </div>
-      <div className="hud-item">
-        <span>Recorde</span>
-        <strong>{String(bestScore).padStart(4, '0')}</strong>
-      </div>
-      <div className="hud-item">
-        <span>Nível</span>
-        <strong>{String(level).padStart(2, '0')}</strong>
-      </div>
-      {combo > 0 && (
-        <div className="hud-item hud-combo">
-          <span>Combo</span>
-          <strong>x{combo}</strong>
+      <div className="hud-group">
+        <div className="hud-pill">
+          <span className="hud-label">Recorde</span>
+          <strong className="hud-value small">{String(bestScore).padStart(4, '0')}</strong>
         </div>
-      )}
-    </div>
+        <div className="hud-pill">
+          <span className="hud-label">Nível</span>
+          <strong className="hud-value small">{String(level).padStart(2, '0')}</strong>
+        </div>
+        {combo > 0 && (
+          <div className="hud-pill hud-combo" aria-live="polite">
+            <span className="hud-label">Combo</span>
+            <strong className="hud-value small">x{combo}</strong>
+          </div>
+        )}
+      </div>
+    </header>
   );
 }

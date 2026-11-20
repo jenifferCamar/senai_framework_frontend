@@ -12,13 +12,21 @@ export default function App() {
   const [screen, setScreen] = useState('start');
   const {
     stack, activeBlock, score, bestScore, level, combo, feedback, status, setStatus,
-    towerHeight, currentSpeed, screenShake, dropBlock, startGame, restartGame, triggerShake,
+    towerHeight, screenShake, dropBlock, startGame, restartGame,
   } = useGameEngine(difficulty);
 
-  const isNewRecord = score > 0 && score > bestScore - (score - (feedback?.points || 0)) && status === 'lost';
+  const playing = screen === 'game';
+  const showParticles = playing && feedback && feedback.type === 'perfect';
 
   return (
-    <div className="app">
+    <div className={`app ${screenShake > 0 ? 'app-shake' : ''}`}>
+      <div className="app-bg" aria-hidden="true">
+        <span className="orb orb-a" />
+        <span className="orb orb-b" />
+        <span className="orb orb-c" />
+        <span className="grid-glow" />
+      </div>
+
       {screen === 'start' && (
         <StartScreen
           bestScore={bestScore}
@@ -28,37 +36,41 @@ export default function App() {
         />
       )}
 
-      {screen === 'game' && (
-        <>
+      {playing && (
+        <main className="game-shell" aria-label="Jogo Empilha!">
           <HUD score={score} bestScore={bestScore} level={level} combo={combo} />
-          <GameBoard
-            stack={stack}
-            activeBlock={activeBlock}
-            onDrop={dropBlock}
-            status={status}
-            feedback={feedback}
-            towerHeight={towerHeight}
-            screenShake={screenShake}
-          />
-          {feedback && (
-            <Particle
-              x={48 + (activeBlock?.left || 0) * 3.04}
-              y={260 - (activeBlock?.bottom || 0) - (towerHeight * 34)}
-              count={status === 'lost' ? 0 : 14}
-              color={feedback.type === 'perfect' ? '#219ebc' : '#ffb703'}
+          <div className="board-wrap">
+            <GameBoard
+              stack={stack}
+              activeBlock={activeBlock}
+              onDrop={dropBlock}
+              status={status}
+              feedback={feedback}
+              towerHeight={towerHeight}
             />
-          )}
-        </>
+            {showParticles && (
+              <Particle
+                x={activeBlock ? activeBlock.left + activeBlock.width / 2 : 50}
+                y={Math.max(18, 78 - towerHeight * 4)}
+                count={14 + Math.min(combo * 2, 10)}
+                color={activeBlock?.color}
+                burstKey={feedback.id}
+              />
+            )}
+          </div>
+          <p className="game-tip" aria-hidden="true">Clique, toque ou <kbd>Espaço</kbd> para soltar · <kbd>P</kbd> pausa</p>
+        </main>
       )}
 
       {status === 'paused' && <PauseScreen onResume={() => setStatus('playing')} />}
-      {status === 'lost' && screen === 'game' && (
+      {status === 'lost' && playing && (
         <GameOverScreen
           score={score}
           bestScore={bestScore}
           towerHeight={towerHeight}
-          isNewRecord={score > bestScore - (feedback?.points || 0) && feedback?.type !== 'miss'}
+          isNewRecord={score >= bestScore && score > 0}
           onRestart={() => { setScreen('game'); restartGame(); }}
+          onMenu={() => { setScreen('start'); }}
         />
       )}
     </div>

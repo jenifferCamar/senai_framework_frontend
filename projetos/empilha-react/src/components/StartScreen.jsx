@@ -1,40 +1,47 @@
 import React from 'react';
+import { DIFFICULTIES } from '../utils/constants';
 
 export default function StartScreen({ onStart, onDifficultyChange, difficulty, bestScore }) {
   return (
-    <section className="screen start-screen" aria-hidden="true">
-      <div className="screen-content">
-        <h1>EMPILHA<span>!</span></h1>
-        <p className="tagline">Construa a torre mais alta que conseguir.</p>
+    <section className="screen start-screen">
+      <div className="screen-card start-card">
+        <p className="eyebrow">Arcade de precisão</p>
+        <h1 className="logo">EMPILHA<span>!</span></h1>
+        <p className="tagline">Solte os blocos no ritmo certo, encaixe com perfeição e construa a torre mais alta.</p>
 
-        <div className="difficulty-select">
-          <span className="diff-label">Dificuldade</span>
-          <div className="diff-options">
-            {['easy', 'medium', 'hard'].map((key) => (
+        <div className="difficulty-panel" role="group" aria-label="Selecionar dificuldade">
+          <span className="panel-label">Dificuldade</span>
+          <div className="diff-grid">
+            {Object.entries(DIFFICULTIES).map(([key, cfg]) => (
               <button
                 key={key}
-                className={`diff-btn ${difficulty === key ? 'active' : ''}`}
+                type="button"
+                className={`diff-card ${difficulty === key ? 'active' : ''}`}
                 onClick={() => onDifficultyChange(key)}
+                aria-pressed={difficulty === key}
               >
-                {key.charAt(0).toUpperCase() + key.slice(1)}
+                <span className="diff-emoji" aria-hidden="true">{cfg.emoji}</span>
+                <strong>{cfg.label}</strong>
+                <small>{cfg.hint}</small>
               </button>
             ))}
           </div>
         </div>
 
-        <button className="btn-start" onClick={onStart} autoFocus>
+        <button className="btn-primary" onClick={onStart} autoFocus>
           Começar partida
-          <span className="btn-hint">ESPAÇO · CLIQUE</span>
+          <span className="btn-sub">Espaço ou clique para jogar</span>
         </button>
 
-        <div className="controls-hint">
-          <div className="hint-row"><kbd>Espaço</kbd> / <kbd>Clique</kbd> — soltar bloco</div>
-          <div className="hint-row"><kbd>P</kbd> / <kbd>Esc</kbd> — pausar</div>
+        <div className="start-meta">
+          <div className="meta-pill"><span>Recorde</span><strong>{String(bestScore).padStart(4, '0')}</strong></div>
+          <div className="meta-pill"><span>Controles</span><strong>Espaço · Clique · P</strong></div>
         </div>
 
-        <div className="best-score">
-          Recorde: <strong>{String(bestScore).padStart(4, '0')}</strong>
-        </div>
+        <ul className="tips" aria-label="Dicas">
+          <li>🎯 Encaixes perfeitos geram combo e mais pontos</li>
+          <li>🧱 A torre sobe e a velocidade aumenta com o nível</li>
+        </ul>
       </div>
     </section>
   );
