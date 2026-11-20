@@ -17,22 +17,22 @@ export default function GameBoard({ stack, activeBlock, onDrop, status, feedback
         }
       }}
     >
-      <div className="board-topline">
-        <span className="board-badge">Torre ativa</span>
-        <span className="board-badge ghost">{String(towerHeight).padStart(2, '0')} blocos</span>
+      <div className="board-top">
+        <span className="board-badge">Torre</span>
+        <span className="board-badge alt">{String(towerHeight).padStart(2, '0')} blocos</span>
       </div>
 
-      <div className="board-stars" aria-hidden="true">
-        <span className="star" style={{ left: '12%', top: '18%' }}>✦</span>
-        <span className="star" style={{ left: '78%', top: '10%' }}>✦</span>
-        <span className="star" style={{ left: '86%', top: '42%' }}>✧</span>
-        <span className="star" style={{ left: '18%', top: '52%' }}>✧</span>
+      <div className="board-decor" aria-hidden="true">
+        <span className="spark" style={{ left: '14%', top: '16%' }} />
+        <span className="spark" style={{ left: '82%', top: '12%' }} />
+        <span className="spark" style={{ left: '76%', top: '44%' }} />
+        <span className="spark" style={{ left: '18%', top: '54%' }} />
       </div>
 
       {stack.map((block) => (
         <div
-          className={`block placed-block${block.isLatest ? ' latest-block' : ''}`}
           key={block.id}
+          className={`block placed-block${block.isLatest ? ' latest' : ''}`}
           style={{
             width: `${block.width}%`,
             left: `${block.left}%`,
@@ -57,7 +57,7 @@ export default function GameBoard({ stack, activeBlock, onDrop, status, feedback
       <div className="board-floor" aria-hidden="true" />
 
       {feedback && (
-        <div className={`drop-feedback ${feedback.type}`} key={feedback.id} aria-live="polite">
+        <div className={`feedback ${feedback.type}`} key={feedback.id} aria-live="polite">
           <strong>{feedback.message}</strong>
           {feedback.points > 0 && <span>+{feedback.points}</span>}
         </div>
@@ -65,17 +65,17 @@ export default function GameBoard({ stack, activeBlock, onDrop, status, feedback
 
       {status === 'ready' && (
         <div className="board-overlay">
-          <span>Pronto para empilhar?</span>
+          <span>Vamos começar</span>
           <strong>Solte o primeiro bloco</strong>
-          <small>Clique, toque ou pressione espaço para alinhar a base.</small>
+          <small>Clique, toque ou use espaço para alinhar.</small>
         </div>
       )}
 
       {status === 'lost' && (
-        <div className="board-overlay lost-overlay">
+        <div className="board-overlay lost">
           <span>Fim da torre</span>
-          <strong>Quase lá!</strong>
-          <small>Veja seus pontos e tente uma nova sequência.</small>
+          <strong>Boa tentativa!</strong>
+          <small>Confira seus pontos e jogue de novo.</small>
         </div>
       )}
 

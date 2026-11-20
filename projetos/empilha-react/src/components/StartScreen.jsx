@@ -4,13 +4,16 @@ import { DIFFICULTIES } from '../utils/constants';
 export default function StartScreen({ onStart, onDifficultyChange, difficulty, bestScore }) {
   return (
     <section className="screen start-screen">
-      <div className="screen-card start-card">
-        <p className="eyebrow">Arcade de precisão</p>
-        <h1 className="logo">EMPILHA<span>!</span></h1>
-        <p className="tagline">Solte os blocos no ritmo certo, encaixe com perfeição e construa a torre mais alta.</p>
+      <div className="card start-card">
+        <span className="pill">Jogo de precisão</span>
+        <h1 className="hero-title">Empilha<span>!</span></h1>
+        <p className="hero-sub">Alinhe os blocos, encaixe com calma e construa a torre mais alta que conseguir.</p>
 
-        <div className="difficulty-panel" role="group" aria-label="Selecionar dificuldade">
-          <span className="panel-label">Dificuldade</span>
+        <div className="panel" role="group" aria-label="Selecionar dificuldade">
+          <div className="panel-head">
+            <span className="panel-title">Dificuldade</span>
+            <span className="panel-note">Escolha seu ritmo</span>
+          </div>
           <div className="diff-grid">
             {Object.entries(DIFFICULTIES).map(([key, cfg]) => (
               <button
@@ -21,27 +24,33 @@ export default function StartScreen({ onStart, onDifficultyChange, difficulty, b
                 aria-pressed={difficulty === key}
               >
                 <span className="diff-emoji" aria-hidden="true">{cfg.emoji}</span>
-                <strong>{cfg.label}</strong>
-                <small>{cfg.hint}</small>
+                <span className="diff-name">{cfg.label}</span>
+                <span className="diff-hint">{cfg.hint}</span>
               </button>
             ))}
           </div>
         </div>
 
-        <button className="btn-primary" onClick={onStart} autoFocus>
-          Começar partida
-          <span className="btn-sub">Espaço ou clique para jogar</span>
+        <button className="btn btn-primary" onClick={onStart} autoFocus>
+          Jogar agora
+          <span>Espaço ou clique para soltar</span>
         </button>
 
-        <div className="start-meta">
-          <div className="meta-pill"><span>Recorde</span><strong>{String(bestScore).padStart(4, '0')}</strong></div>
-          <div className="meta-pill"><span>Controles</span><strong>Espaço · Clique · P</strong></div>
+        <div className="meta-row">
+          <div className="meta-box">
+            <span>Seu recorde</span>
+            <strong>{String(bestScore).padStart(4, '0')}</strong>
+          </div>
+          <div className="meta-box">
+            <span>Controles</span>
+            <strong>Espaço · Clique · P</strong>
+          </div>
         </div>
 
-        <ul className="tips" aria-label="Dicas">
-          <li>🎯 Encaixes perfeitos geram combo e mais pontos</li>
-          <li>🧱 A torre sobe e a velocidade aumenta com o nível</li>
-        </ul>
+        <div className="tips-row" aria-label="Dicas">
+          <div className="tip-chip">✨ Perfeito = combo e bônus</div>
+          <div className="tip-chip">📈 A velocidade sobe a cada nível</div>
+        </div>
       </div>
     </section>
   );

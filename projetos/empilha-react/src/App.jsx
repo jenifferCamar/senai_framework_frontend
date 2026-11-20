@@ -16,15 +16,15 @@ export default function App() {
   } = useGameEngine(difficulty);
 
   const playing = screen === 'game';
-  const showParticles = playing && feedback && feedback.type === 'perfect';
+  const burst = playing && feedback && feedback.type === 'perfect';
 
   return (
     <div className={`app ${screenShake > 0 ? 'app-shake' : ''}`}>
-      <div className="app-bg" aria-hidden="true">
-        <span className="orb orb-a" />
-        <span className="orb orb-b" />
-        <span className="orb orb-c" />
-        <span className="grid-glow" />
+      <div className="scene-bg" aria-hidden="true">
+        <span className="blob blob-a" />
+        <span className="blob blob-b" />
+        <span className="blob blob-c" />
+        <span className="grain" />
       </div>
 
       {screen === 'start' && (
@@ -37,7 +37,7 @@ export default function App() {
       )}
 
       {playing && (
-        <main className="game-shell" aria-label="Jogo Empilha!">
+        <main className="game-shell" aria-label="Jogo Empilha">
           <HUD score={score} bestScore={bestScore} level={level} combo={combo} />
           <div className="board-wrap">
             <GameBoard
@@ -48,17 +48,17 @@ export default function App() {
               feedback={feedback}
               towerHeight={towerHeight}
             />
-            {showParticles && (
+            {burst && (
               <Particle
                 x={activeBlock ? activeBlock.left + activeBlock.width / 2 : 50}
-                y={Math.max(18, 78 - towerHeight * 4)}
-                count={14 + Math.min(combo * 2, 10)}
+                y={Math.max(16, 76 - towerHeight * 4)}
+                count={12 + Math.min(combo * 2, 10)}
                 color={activeBlock?.color}
                 burstKey={feedback.id}
               />
             )}
           </div>
-          <p className="game-tip" aria-hidden="true">Clique, toque ou <kbd>Espaço</kbd> para soltar · <kbd>P</kbd> pausa</p>
+          <p className="game-tip">Toque, clique ou <kbd>Espaço</kbd> para soltar · <kbd>P</kbd> pausa</p>
         </main>
       )}
 
@@ -70,7 +70,7 @@ export default function App() {
           towerHeight={towerHeight}
           isNewRecord={score >= bestScore && score > 0}
           onRestart={() => { setScreen('game'); restartGame(); }}
-          onMenu={() => { setScreen('start'); }}
+          onMenu={() => setScreen('start')}
         />
       )}
     </div>
