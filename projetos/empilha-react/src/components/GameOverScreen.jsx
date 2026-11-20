@@ -4,12 +4,12 @@ export default function GameOverScreen({ score, bestScore, towerHeight, isNewRec
   return (
     <section className="screen overlay-screen" aria-label="Fim de jogo" aria-modal="true" role="dialog">
       <div className="card overlay-card">
-        <span className={`pill ${isNewRecord ? 'gold' : 'soft'}`}>{isNewRecord ? 'Novo recorde' : 'Fim de rodada'}</span>
-        <h2 className={isNewRecord ? 'celebrate' : ''}>{isNewRecord ? 'Que torre incrível!' : 'Quase lá!'}</h2>
+        <span className={`pill ${isNewRecord ? 'gold' : 'soft'}`}>{isNewRecord ? 'recorde novo' : 'fim de game'}</span>
+        <h2 className={isNewRecord ? 'celebrate' : ''}>{isNewRecord ? 'Você amassou!' : 'Foi quase!'}</h2>
         <p className="overlay-text">
           {isNewRecord
-            ? 'Você superou sua melhor marca. Continue assim e vá ainda mais alto!'
-            : 'Cada tentativa melhora seu tempo. Ajuste o drop e tente de novo.'}
+            ? 'Mandou muito! Novo recorde na conta — bora subir mais essa torre?'
+            : 'Errou o timing, acontece. Ajusta o drop e tenta de novo!'}
         </p>
 
         <div className="stats-grid">
@@ -29,12 +29,12 @@ export default function GameOverScreen({ score, bestScore, towerHeight, isNewRec
 
         <div className="actions">
           <button className="btn btn-primary" onClick={onRestart} autoFocus>
-            Jogar novamente
-            <span>Começar nova rodada</span>
+            Jogar de novo
+            <span>partida rápida</span>
           </button>
           {onMenu && (
             <button className="btn btn-ghost" type="button" onClick={onMenu}>
-              Voltar ao início
+              Voltar pro início
             </button>
           )}
         </div>

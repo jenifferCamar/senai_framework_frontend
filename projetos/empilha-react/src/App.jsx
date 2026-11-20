@@ -21,10 +21,13 @@ export default function App() {
   return (
     <div className={`app ${screenShake > 0 ? 'app-shake' : ''}`}>
       <div className="scene-bg" aria-hidden="true">
-        <span className="blob blob-a" />
-        <span className="blob blob-b" />
-        <span className="blob blob-c" />
-        <span className="grain" />
+        <span className="bg-orb orb-a" />
+        <span className="bg-orb orb-b" />
+        <span className="bg-orb orb-c" />
+        <span className="bg-grid" />
+        <span className="sticker s1">✦</span>
+        <span className="sticker s2">★</span>
+        <span className="sticker s3">✦</span>
       </div>
 
       {screen === 'start' && (
@@ -52,13 +55,13 @@ export default function App() {
               <Particle
                 x={activeBlock ? activeBlock.left + activeBlock.width / 2 : 50}
                 y={Math.max(16, 76 - towerHeight * 4)}
-                count={12 + Math.min(combo * 2, 10)}
+                count={14 + Math.min(combo * 2, 12)}
                 color={activeBlock?.color}
                 burstKey={feedback.id}
               />
             )}
           </div>
-          <p className="game-tip">Toque, clique ou <kbd>Espaço</kbd> para soltar · <kbd>P</kbd> pausa</p>
+          <p className="game-tip"><kbd>Espaço</kbd> / clique solta o bloco · <kbd>P</kbd> pausa</p>
         </main>
       )}
 

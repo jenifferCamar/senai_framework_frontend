@@ -5,14 +5,17 @@ export default function StartScreen({ onStart, onDifficultyChange, difficulty, b
   return (
     <section className="screen start-screen">
       <div className="card start-card">
-        <span className="pill">Jogo de precisão</span>
-        <h1 className="hero-title">Empilha<span>!</span></h1>
-        <p className="hero-sub">Alinhe os blocos, encaixe com calma e construa a torre mais alta que conseguir.</p>
+        <div className="tag-row">
+          <span className="chip chip-hot">novo vibe</span>
+          <span className="chip">arcade</span>
+        </div>
+        <h1 className="hero-title">EMPILHA<span>!</span></h1>
+        <p className="hero-sub">Solta os blocos no tempo certo, faz combo e monta a torre mais braba.</p>
 
         <div className="panel" role="group" aria-label="Selecionar dificuldade">
           <div className="panel-head">
-            <span className="panel-title">Dificuldade</span>
-            <span className="panel-note">Escolha seu ritmo</span>
+            <span className="panel-title">Modo</span>
+            <span className="panel-note">escolhe seu nível</span>
           </div>
           <div className="diff-grid">
             {Object.entries(DIFFICULTIES).map(([key, cfg]) => (
@@ -32,13 +35,13 @@ export default function StartScreen({ onStart, onDifficultyChange, difficulty, b
         </div>
 
         <button className="btn btn-primary" onClick={onStart} autoFocus>
-          Jogar agora
-          <span>Espaço ou clique para soltar</span>
+          Bora jogar
+          <span>espaço ou clique pra soltar</span>
         </button>
 
         <div className="meta-row">
           <div className="meta-box">
-            <span>Seu recorde</span>
+            <span>Recorde</span>
             <strong>{String(bestScore).padStart(4, '0')}</strong>
           </div>
           <div className="meta-box">
@@ -48,8 +51,8 @@ export default function StartScreen({ onStart, onDifficultyChange, difficulty, b
         </div>
 
         <div className="tips-row" aria-label="Dicas">
-          <div className="tip-chip">✨ Perfeito = combo e bônus</div>
-          <div className="tip-chip">📈 A velocidade sobe a cada nível</div>
+          <div className="tip-chip">💥 Perfeito dá combo e bônus</div>
+          <div className="tip-chip">🚀 A velocidade sobe com o nível</div>
         </div>
       </div>
     </section>

@@ -23,10 +23,10 @@ export default function GameBoard({ stack, activeBlock, onDrop, status, feedback
       </div>
 
       <div className="board-decor" aria-hidden="true">
-        <span className="spark" style={{ left: '14%', top: '16%' }} />
-        <span className="spark" style={{ left: '82%', top: '12%' }} />
-        <span className="spark" style={{ left: '76%', top: '44%' }} />
-        <span className="spark" style={{ left: '18%', top: '54%' }} />
+        <span className="spark" style={{ left: '12%', top: '18%' }} />
+        <span className="spark" style={{ left: '82%', top: '14%' }} />
+        <span className="spark" style={{ left: '76%', top: '46%' }} />
+        <span className="spark" style={{ left: '18%', top: '56%' }} />
       </div>
 
       {stack.map((block) => (
@@ -65,21 +65,21 @@ export default function GameBoard({ stack, activeBlock, onDrop, status, feedback
 
       {status === 'ready' && (
         <div className="board-overlay">
-          <span>Vamos começar</span>
-          <strong>Solte o primeiro bloco</strong>
-          <small>Clique, toque ou use espaço para alinhar.</small>
+          <span>Partiu?</span>
+          <strong>Solta o primeiro bloco</strong>
+          <small>Clique, toque ou espaço pra começar.</small>
         </div>
       )}
 
       {status === 'lost' && (
         <div className="board-overlay lost">
-          <span>Fim da torre</span>
-          <strong>Boa tentativa!</strong>
-          <small>Confira seus pontos e jogue de novo.</small>
+          <span>Cabou a torre</span>
+          <strong>Foi por pouco!</strong>
+          <small>Confere a pontuação e manda outra.</small>
         </div>
       )}
 
-      <span className="board-hint">Espaço · Clique · Toque</span>
+      <span className="board-hint">toque · clique · espaço</span>
     </div>
   );
 }

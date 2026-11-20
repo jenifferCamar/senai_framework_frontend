@@ -1,9 +1,9 @@
 export const BOARD_BLOCK_HEIGHT = 34;
 
 export const COLORS = [
-  '#ff6b6b', '#ff9f43', '#ffd166', '#06d6a0',
-  '#4cc9f0', '#5c7cfa', '#b197fc', '#f783ac',
-  '#ff8787', '#38d9a9', '#74c0fc', '#faa2c1',
+  '#ff4fd8', '#7c5cff', '#00e5ff', '#39ff88',
+  '#ffe14d', '#ff7a59', '#ff5c8a', '#4de1ff',
+  '#b8ff3d', '#ff9f1c', '#c77dff', '#00f5d4',
 ];
 
 export const BASE_BLOCK = {
@@ -15,9 +15,9 @@ export const BASE_BLOCK = {
 };
 
 export const DIFFICULTIES = {
-  easy: { speed: 0.08, acceleration: 0.008, label: 'Fácil', emoji: '🌤️', hint: 'Calmo e divertido' },
-  medium: { speed: 0.13, acceleration: 0.015, label: 'Médio', emoji: '🎯', hint: 'Bom desafio' },
-  hard: { speed: 0.19, acceleration: 0.025, label: 'Difícil', emoji: '🔥', hint: 'Para experts' },
+  easy: { speed: 0.08, acceleration: 0.008, label: 'De boa', emoji: '😎', hint: 'Pra pegar o ritmo' },
+  medium: { speed: 0.13, acceleration: 0.015, label: 'Médio', emoji: '⚡', hint: 'Desafio na medida' },
+  hard: { speed: 0.19, acceleration: 0.025, label: 'Insano', emoji: '🔥', hint: 'Só pros brabos' },
 };
 
 export const PERFECT_THRESHOLD = 0.92;
